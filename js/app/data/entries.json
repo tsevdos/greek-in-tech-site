@@ -1,0 +1,66 @@
+[
+	{
+		"id" : 1,
+		"title": "Cron job (Chronos job)",
+		"description": "It comes from the Greek word for time, χρόνος chronos. Chronus is the personification of Time in pre-Socratic philosophy and later literature.",
+		"viewed" : false,
+		"categories": [
+			"OS",
+			"linux",
+			"unix",
+			"open source"
+		]
+	},
+	{
+		"id" : 2,
+		"title": "Deamon",
+		"description": "The term was coined by the programmers of MIT's Project MAC. They took the name from Maxwell's demon, an imaginary being from a thought experiment that constantly works in the background, sorting molecules. Unix systems inherited this terminology. Maxwell's Demon is consistent with Greek mythology's interpretation of a daemon as a supernatural being working in the background, with no particular bias towards good or evil. However, BSD and some of its derivatives have adopted a Christian demon as their mascot rather than a Greek daemon.",
+		"viewed" : false,
+		"categories": [
+			"OS",
+			"linux",
+			"unix",
+			"open source"
+		]
+	},
+	{
+		"id" : 3,
+		"title": "Polymorphism",
+		"description": "In programming languages and type theory, polymorphism (from Greek πολύς, polys, \"many, much\" and μορφή, morphē, \"form, shape\") is the provision of a single interface to entities of different types.",
+		"viewed" : false,
+		"categories": [
+			"programming"
+		]
+	},
+	{
+		"id" : 4,
+		"title": "Apache Cassandra",
+		"description": "Apache Cassandra was named after the Greek mythological prophet Cassandra. Cassandra (Greek: Κασσάνδρα, pronounced [kas̚sándra͜a], also Κασάνδρα), also known as Alexandra or Kassandra, was the daughter of King Priam and Queen Hecuba of Troy. A common version of her story is that Apollo gave her the power of prophecy in order to seduce her, but when she refused, he spat into her mouth cursing her never to be believed. In an alternative version, she fell asleep in a temple, and snakes licked (or whispered in) her ears so that she was able to hear the future.",
+		"viewed" : false,
+		"categories": [
+			"open source",
+			"databases",
+			"big data",
+			"noSQL"
+		]
+	},
+	{
+		"id" : 5,
+		"title": "Pseudo",
+		"description": "The prefix pseudo- (from Greek ψευδής, pseudes, \"lying, false\") is used to mark something that superficially appears to be (or behaves like) one thing, but actually is another. Subject to context, pseudo may connote coincidence, imitation, intentional deception, or a combination thereof. Pseudocode, pseudo-element (CSS), etc...",
+		"viewed" : false,
+		"categories": [
+			"CSS",
+			"programming"
+		]
+	},
+	{
+		"id" : 6,
+		"title": "Trojan horse",
+		"description": "The term is derived from the Ancient Greek story of the wooden horse that was used to help Greek troops invade the city of Troy by stealth.",
+		"viewed" : false,
+		"categories": [
+			"software"
+		]
+	}
+]

@@ -1,0 +1,34 @@
+html, body {
+    height: 100%;
+}
+
+body {
+  margin:0;
+  padding:0;
+  color:#fff;
+  background:#0077B5;
+  font-size:18px;
+}
+
+#main {
+  width:96%;
+  height:100%;
+  padding:2%;
+}
+
+#entry {
+
+}
+
+h1, p, ul {
+  line-height:1.45;
+}
+
+h1 {
+  margin:0 0 1em;
+  font-size: 4em;
+}
+
+p, ul {
+  font-size: 2em;
+}
