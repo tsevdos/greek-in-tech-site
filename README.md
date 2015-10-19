@@ -11,5 +11,4 @@ You need to have [node.js](https://nodejs.org/) and [bower](http://bower.io/) an
 After installation you need only need to start the server using the last command.
 
 ## TODO
-1. Fix routing on click
-2. Minimize with rjs
+1. Minimize js with rjs
