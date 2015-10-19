@@ -1,4 +1,4 @@
-# G(r)eek in Tech
+# Greek in Tech
 A project that demonstrates greek names and words that we constantly use on modern computing / software engineering.
 
 ## Getting Started
