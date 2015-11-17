@@ -27,7 +27,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-  list-style-position: inside;
+	list-style-position: inside;
 }
 blockquote, q {
 	quotes: none;
@@ -44,34 +44,135 @@ table {
 
 /* Styles */
 html, body {
-  height: 100%;
-  font-family: 'Lato', sans-serif;
+	height: 100%;
+	font-family: 'Lato', sans-serif;
 }
 
 body {
-  margin: 0;
-  padding: 2em;
-  color: #fff;
-  background: #0077B5;
+	margin: 0;
+	padding: 1em;
+	color: #fff;
+	background: #0077B5;
 }
 
-#entry {
+.wrapper {
+	max-width: 60em;
+	margin:0 auto;
+}
 
+a:link {
+	color: #fff;
+	opacity: 0.7;
+	text-decoration: none;
+	transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+}
+
+a:visited {
+	color: #fff;
+	opacity: 0.7;
+}
+
+a:hover {
+	opacity: 1;
+}
+
+a:active {
+	opacity: 1;
 }
 
 h1, p, ul {
-  line-height: 1.45;
+	margin: 0 0 1em;
+	line-height: 1.45;
 }
 
 h1 {
-  margin: 0 0 1em;
-  padding: 0;
-  font-size: 5em;
-  font-weight: bold;
-  text-align: center;
+	padding: 0;
+	font-size: 5em;
+	font-weight: bold;
+	text-align: center;
+	text-shadow:0px 4px 3px rgba(0,0,0,0.4),
+				0px 8px 13px rgba(0,0,0,0.1),
+				0px 18px 23px rgba(0,0,0,0.1);
+
+}
+
+.tags {
+	float: left;
 }
 
 p, ul {
-  margin: 0 0 1em;
-  font-size: 2em;
+	font-size: 2em;
+}
+
+ul {
+	float: left;
+	list-style-position: inside;
+}
+
+ul li {
+	float: left;
+	margin: 0 0.5em;
+	list-style-type: disc;
+}
+
+footer {
+	position: fixed;
+	bottom: 1em;
+	font-size:0.5em;
+}
+
+footer ul,
+footer li {
+	list-style-type: none;
+}
+
+footer a {
+	font-size: 2em;
+}
+
+.copy {
+
+}
+
+.copy a {
+	font-size: 1.2em;
+}
+
+.social-copy {
+	float: left;
+	margin: 0;
+	line-height: 3em;
+}
+
+.social {
+	float: left;
+}
+
+@media (max-width: 640px) {
+	.tags, ul, ul li {
+		float: none;
+	}
+	footer {
+		position: static;
+	}
+}
+
+.clearfix:after {
+	content: " ";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+::-moz-selection {
+	color: #0077B5;
+	background:#fff;
+}
+
+::selection {
+	color: #0077B5;
+	background:#fff;
 }
