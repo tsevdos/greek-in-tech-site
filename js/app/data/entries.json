@@ -1,32 +1,32 @@
 [
 	{
 		"id" : 1,
-		"title": "Cron job (Chronos job)",
-		"description": "It comes from the Greek word for time, χρόνος chronos. Chronus is the personification of Time in pre-Socratic philosophy and later literature.",
+		"title": "Cron (job scheduler)",
+		"description": "It comes from the Greek word for time, chronos (χρόνος). Chronos is the personification of time in early Greek mythology and literature. He later appears in the Renaissance as Father Time.",
 		"viewed" : false,
 		"categories": [
 			"OS",
-			"linux",
 			"unix",
+			"linux",
 			"open source"
 		]
 	},
 	{
 		"id" : 2,
-		"title": "Deamon",
-		"description": "The term was coined by the programmers of MIT's Project MAC. They took the name from Maxwell's demon, an imaginary being from a thought experiment that constantly works in the background, sorting molecules. Unix systems inherited this terminology. Maxwell's Demon is consistent with Greek mythology's interpretation of a daemon as a supernatural being working in the background, with no particular bias towards good or evil. However, BSD and some of its derivatives have adopted a Christian demon as their mascot rather than a Greek daemon.",
+		"title": "Daemon",
+		"description": "The term coined by programmers of MIT's Project MAC, was inspired by the physicist James Clerk Maxwell's demon. It originated as an imaginary being from a thought experiment that constantly works in the background sorting molecules. In Greek mythology, a daemon is a supernatural being working in the background, with no particular bias towards good or evil. The daemon concept was subsequently adopted by Unix systems, however, BSD and some of its derivatives have used a Christian interpretation of the mythological deamon as their mascot rather than a Greek daemon.",
 		"viewed" : false,
 		"categories": [
 			"OS",
-			"linux",
 			"unix",
+			"linux",
 			"open source"
 		]
 	},
 	{
 		"id" : 3,
 		"title": "Polymorphism",
-		"description": "In programming languages and type theory, polymorphism (from Greek πολύς, polys, \"many, much\" and μορφή, morphē, \"form, shape\") is the provision of a single interface to entities of different types.",
+		"description": "In programming languages and type theory, polymorphism is the provision of a single interface to entities of different types. Polymorphism comes from the greek words, polys (πολύς), meaning \"much\" or \"many\" and morphē (μορφή), meaning \"form\" or \"shape\".",
 		"viewed" : false,
 		"categories": [
 			"programming"
@@ -34,8 +34,8 @@
 	},
 	{
 		"id" : 4,
-		"title": "Apache Cassandra",
-		"description": "Apache Cassandra was named after the Greek mythological prophet Cassandra. Cassandra (Greek: Κασσάνδρα, pronounced [kas̚sándra͜a], also Κασάνδρα), also known as Alexandra or Kassandra, was the daughter of King Priam and Queen Hecuba of Troy. A common version of her story is that Apollo gave her the power of prophecy in order to seduce her, but when she refused, he spat into her mouth cursing her never to be believed. In an alternative version, she fell asleep in a temple, and snakes licked (or whispered in) her ears so that she was able to hear the future.",
+		"title": "(Apache) Cassandra",
+		"description": "Apache Cassandra was named after Cassandra (Greek: Κασσάνδρα, also Κασάνδρα), daughter of King Priam and Queen Hecuba of Troy. A common version of her story is that Apollo gave her the power of prophecy in order to seduce her, but when she spurned his advances, he spat into her mouth to ensure that Cadandra’s prophesies fell on deaf ears.",
 		"viewed" : false,
 		"categories": [
 			"open source",
@@ -47,20 +47,86 @@
 	{
 		"id" : 5,
 		"title": "Pseudo",
-		"description": "The prefix pseudo- (from Greek ψευδής, pseudes, \"lying, false\") is used to mark something that superficially appears to be (or behaves like) one thing, but actually is another. Subject to context, pseudo may connote coincidence, imitation, intentional deception, or a combination thereof. Pseudocode, pseudo-element (CSS), etc...",
+		"description": "The prefix pseudo comes from pseudes (ψευδής,), meaning \"lying\" or \"false\". The term refers to something which appears, on the surface, to be one thing, but is actually another. Pseudo may connote coincidence, imitation, intentional deception, or a combination thereof.",
 		"viewed" : false,
 		"categories": [
-			"CSS",
-			"programming"
+			"programming",
+			"coding",
+			"CSS"
 		]
 	},
 	{
 		"id" : 6,
 		"title": "Trojan horse",
-		"description": "The term is derived from the Ancient Greek story of the wooden horse that was used to help Greek troops invade the city of Troy by stealth.",
+		"description": "The term comes from the Ancient Greek story of the wooden horse that was used by the Greek troops to invade Troy by stealth from within the city’s walls.",
 		"viewed" : false,
 		"categories": [
-			"software"
+			"social engineering",
+			"program"
+		]
+	},
+	{
+		"id" : 7,
+		"title": "Technology",
+		"description": "Technology derives from the Greek words techne (τέχνη), meaning art, skill or sleight of hand and logia (λογία), which refers to a collection of techniques, skills and processes used in the production of goods, services or in the accomplishment of objectives. It is easy to see how these concepts apply to our contemporary understanding of technology.",
+		"viewed" : false,
+		"categories": [
+			"science"
+		]
+	},
+	{
+		"id" : 8,
+		"title": "Kerberos (protocol)",
+		"description": "The protocol was named after Kerberos (or Cerberus) in Greek mythology, the ferocious three-headed guard dog of Hades. Its designers conceived it primarily as a client–server model and it provides mutual authentication - both the user and the server verify each other's identity.",
+		"viewed" : false,
+		"categories": [
+			"networking",
+			"authentication protocol"
+		]
+	},
+	{
+		"id" : 9,
+		"title": "Skeuomorph – Skeuomorphism",
+		"description": "The term skeuomorph is compounded from the Greek: skéuos (σκεῦος), meaning \"container\" or \"tool\", and morphḗ (μορφή), \"shape\". A skeuomorph is a derivative object that retains ornamental design cues from structures that were necessary in the original, like a software calendar that imitates the appearance of binding on a paper desk calendar. Skeuomorph can be used to describe computer and mobile interfaces.",
+		"viewed" : false,
+		"categories": [
+			"design",
+			"interface"
+		]
+	},
+	{
+		"id" : 10,
+		"title": "Eclipse",
+		"description": "The term eclipse is derived from the ancient Greek ékleipsis (ἔκλειψις), which means \"the abandonment, downfall, or darkening of a heavenly body\". Eclipse software, initially developed by IBM, is primarily used to produce Java applications. Many versions of Eclipse have been named after a celestial bodies, such as Juno, Luna and Mars.",
+		"viewed" : false,
+		"categories": [
+			"IDE",
+			"programming",
+			"coding",
+			"software",
+			"Java"
+		]
+	},
+	{
+		"id" : 11,
+		"title": "Android",
+		"description": "The word was coined from the prefix andro- for \"man\" or \"male\" (ἀνδρ) and the suffix -oid \"having the form or likeness of\". It has recently come to refer to an operating system endorsed by Google, which has become a leader in the mobile device market.",
+		"viewed" : false,
+		"categories": [
+			"OS",
+			"mobile",
+			"Google",
+			"open source"
+		]
+	},
+	{
+		"id" : 12,
+		"title": "Icon",
+		"description": "An icon, from the Greek eikōn (εἰκών) defined as \"image\", is generally a flat panel painting depicting religious figures or scenes. The term has been adapted to refer to a graphical user interface (GUI), which is the visual symbol identifying a command, file, directory or device.",
+		"viewed" : false,
+		"categories": [
+			"GUI",
+			"interface"
 		]
 	}
 ]
