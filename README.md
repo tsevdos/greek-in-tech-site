@@ -1,5 +1,5 @@
 # Greek in Tech
-A project that demonstrates many greek words and names that we constantly use on modern computing and software engineering. You can view the site on (github pages)[http://tsevdos.github.io/greek-in-tech/].
+A project that demonstrates many greek words and names that we constantly use on modern computing and software engineering. You can view the site on [greekintech.com](http://greekintech.com/).
 
 ## Getting Started
 You need to have [node.js](https://nodejs.org/) and [bower](http://bower.io/) and installed. When you are ready you can install all dependencies by typing :

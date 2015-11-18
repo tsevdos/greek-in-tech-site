@@ -50,23 +50,25 @@ html, body {
 
 body {
 	margin: 0;
-	padding: 1em;
+	padding: 0;
 	color: #fff;
 	background: #0077B5;
+	font-size: 2em;
+	line-height: 1.5;
 }
 
 .wrapper {
-	max-width: 60em;
-	margin:0 auto;
+	max-width: 30em;
+	margin: 0 auto;
 }
 
 a:link {
 	color: #fff;
 	opacity: 0.7;
 	text-decoration: none;
-	transition: all 1s ease-in-out;
-	-moz-transition: all 1s ease-in-out;
-	-webkit-transition: all 1s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
 }
 
 a:visited {
@@ -76,20 +78,25 @@ a:visited {
 
 a:hover {
 	opacity: 1;
+	text-decoration: underline;
 }
 
 a:active {
 	opacity: 1;
 }
 
-h1, p, ul {
+p, ul {
 	margin: 0 0 1em;
-	line-height: 1.45;
+}
+
+article {
+	padding: 1em 0 0;
 }
 
 h1 {
+	margin: 0 0 0.25em;
 	padding: 0;
-	font-size: 5em;
+	font-size: 3em;
 	font-weight: bold;
 	text-align: center;
 	text-shadow:0px 4px 3px rgba(0,0,0,0.4),
@@ -98,12 +105,12 @@ h1 {
 
 }
 
-.tags {
+.tags-copy {
 	float: left;
 }
 
 p, ul {
-	font-size: 2em;
+
 }
 
 ul {
@@ -118,9 +125,12 @@ ul li {
 }
 
 footer {
-	position: fixed;
-	bottom: 1em;
-	font-size:0.5em;
+	margin: 5em 0 0;
+	font-size: 0.5em;
+}
+
+footer p {
+	text-align: center;
 }
 
 footer ul,
@@ -128,35 +138,47 @@ footer li {
 	list-style-type: none;
 }
 
-footer a {
-	font-size: 2em;
-}
-
-.copy {
-
-}
-
-.copy a {
-	font-size: 1.2em;
-}
-
-.social-copy {
-	float: left;
-	margin: 0;
-	line-height: 3em;
-}
-
 .social {
-	float: left;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.social ul {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.social ul li {
+	float: none;
+	display:inline-block;
+}
+.social ul a {
+	font-size: 2.4em;
 }
 
 @media (max-width: 640px) {
-	.tags, ul, ul li {
+
+	body {
+		font-size: 1.4em;
+	}
+
+	.wrapper {
+		padding: 1em;
+	}
+
+	h1 {
+		font-size: 2.2em;
+	}
+
+	.tags-copy, .tags, .tags li {
 		float: none;
 	}
+
 	footer {
-		position: static;
+		font-size: 0.7em;
 	}
+
 }
 
 .clearfix:after {
