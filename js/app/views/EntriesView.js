@@ -12,12 +12,13 @@ define([
 
 		initialize: function(options) {
 			this.collection = options.collection;
-			this.router = options.router;
 		},
 
-		renderRandomEntry: function() {
-			var unviewedEntry = this.collection.getUnviewedEntryID();
-			this.router.navigate("entry/" + unviewedEntry.toString(), { trigger: true });
+		renderRandomEntry: function(e) {
+			if (!$(e.target).is('a')) { // TODO find a better way to suppress event delegation
+				var unviewedEntry = this.collection.getUnviewedEntryID();
+				this.trigger('routeToUnviewedEntry', unviewedEntry);
+			}
 		}
 
 	});

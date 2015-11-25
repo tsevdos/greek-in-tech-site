@@ -18,7 +18,8 @@ define([
 		initialize: function() {
 			this.entriesData = JSON.parse(data);
 			this.entries = new Entries(this.entriesData);
-			new EntriesView({ collection: this.entries, router: this });
+			var entriesView = new EntriesView({ collection: this.entries });
+			this.listenTo(entriesView, 'routeToUnviewedEntry', this.showEntry)
 		},
 
 		showRandomEntry: function() {
