@@ -1,13 +1,11 @@
 define([
-	'jquery',
-	'underscore',
-	'backbone',
 	'collections/Entries',
 	'models/Entry',
 	'views/EntriesView',
 	'views/EntryView',
-	'text!data/entries.json'
-], function($, _, Backbone, Entries, EntryModel, EntriesView, EntryView, data) {
+	'text!data/entries.json',
+	'backbone'
+], function(Entries, EntryModel, EntriesView, EntryView, data) {
 
 	return Backbone.Router.extend({
 		routes: {
@@ -19,7 +17,7 @@ define([
 			this.entriesData = JSON.parse(data);
 			this.entries = new Entries(this.entriesData);
 			var entriesView = new EntriesView({ collection: this.entries });
-			this.listenTo(entriesView, 'routeToUnviewedEntry', this.showEntry)
+			this.listenTo(entriesView, 'routeToUnviewedEntry', this.showEntry);
 		},
 
 		showRandomEntry: function() {
