@@ -5,8 +5,7 @@ A project that demonstrates many greek words and names that we constantly use on
 You need to have [node.js](https://nodejs.org/) and [bower](http://bower.io/) and installed. When you are ready you can install all dependencies by typing :
 
 1. `npm install`
-2. `bower install`
-3. `npm start`
+2. `npm start`
 
 After installation you need only need to start the server using the last command.
 
