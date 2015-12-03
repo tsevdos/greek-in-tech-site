@@ -1,11 +1,21 @@
 <h1><%= title %></h1>
 
+<div class="twitter-btn-container">
+	<a class="twitter-share-button"
+		href="https://twitter.com/intent/tweet?
+		text=Did%20you%20know%20that%20%22<%= title %>%22%20is%20a%20greek%20word%3F%20Discover%20more%20at&amp;
+		url=http%3A%2F%2Fgreekintech.com%2F&amp;
+		via=tsevdos&amp;
+		hashtags=greekintech&amp;"
+		data-count="none">Tweet it!
+	</a>
+</div>
+
 <p><%= description %></p>
 
 <p class="tags-copy">Tags: </p>
-
 <ul class="tags">
-	<% _.each(categories, function(category, i) { %>
+	<% _.each(categories, function(category) { %>
 		<li><%= category %></li>
 	<% }) %>
 </ul>
