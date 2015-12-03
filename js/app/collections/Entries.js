@@ -1,9 +1,7 @@
 define([
-	'jquery',
-	'underscore',
-	'backbone',
-	'models/Entry'
-], function ($, _, Backbone, Entry) {
+	'models/Entry',
+	'backbone'
+], function (Entry) {
 
 	return Backbone.Collection.extend({
 		model: Entry,

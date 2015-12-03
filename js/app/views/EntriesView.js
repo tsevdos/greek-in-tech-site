@@ -1,9 +1,7 @@
 define([
-	'jquery',
-	'underscore',
-	'backbone',
-	'views/EntryView'
-], function($, _, Backbone, EntryView){
+	'views/EntryView',
+	'backbone'
+], function(EntryView){
 	return Backbone.View.extend({
 		el: $('body'),
 		events: {
