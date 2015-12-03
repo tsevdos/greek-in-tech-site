@@ -45,16 +45,23 @@ table {
 /* Styles */
 html, body {
 	height: 100%;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 body {
 	margin: 0;
 	padding: 0;
-	color: #fff;
+	color: rgba(0, 0, 0, 0.6);
 	background: #0077B5;
 	font-size: 2em;
+	font-weight: 300;
 	line-height: 1.5;
+
+	background: #dbd9c7;
+	background: -moz-radial-gradient(center, ellipse cover,  #d0cdb3 0%, #f4f1e6 100%);
+	background: -webkit-radial-gradient(center, ellipse cover,  #d0cdb3 0%,#f4f1e6 100%);
+	background: radial-gradient(ellipse at center,  #d0cdb3 0%,#f4f1e6 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0cdb3', endColorstr='#f4f1e6',GradientType=1 );
 }
 
 .wrapper {
@@ -63,7 +70,7 @@ body {
 }
 
 a:link {
-	color: #fff;
+	color: #333;
 	opacity: 0.7;
 	text-decoration: none;
 	transition: all 0.5s ease-in-out;
@@ -72,7 +79,7 @@ a:link {
 }
 
 a:visited {
-	color: #fff;
+	color: #333;
 	opacity: 0.7;
 }
 
@@ -87,6 +94,8 @@ a:active {
 
 p, ul {
 	margin: 0 0 1em;
+	line-height: 2em;
+	font-size: 0.8em;
 }
 
 article {
@@ -97,12 +106,8 @@ h1 {
 	margin: 0 0 0.25em;
 	padding: 0;
 	font-size: 3em;
-	font-weight: bold;
+	font-weight: 300;
 	text-align: center;
-	text-shadow:0px 4px 3px rgba(0,0,0,0.4),
-				0px 8px 13px rgba(0,0,0,0.1),
-				0px 18px 23px rgba(0,0,0,0.1);
-
 }
 
 .tags-copy {
@@ -121,7 +126,20 @@ ul {
 ul li {
 	float: left;
 	margin: 0 0.5em;
-	list-style-type: disc;
+	list-style: none;
+}
+
+ul.tags li:before {
+	content: "";
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border-radius: 19px;
+	background: rgba(0, 0, 0, 0.1);
+	vertical-align: middle;
+	margin-right: 10px;
+	position: relative;
+	top: -1px;
 }
 
 footer {
