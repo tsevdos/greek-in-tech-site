@@ -5,7 +5,9 @@ A project that demonstrates many greek words and names that we constantly use on
 You need to have [node.js](https://nodejs.org/) and [bower](http://bower.io/) and installed. When you are ready you can install all dependencies by typing :
 
 1. `npm install`
-2. `npm start`
+2. `npm install node-sass nodemon`
+3. `npm start`
+4. temporary until scss rendering is moved to the server: open a new terminal and `npm run watch-css`
 
 After installation you need only need to start the server using the last command.
 

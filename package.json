@@ -4,7 +4,9 @@
 	"description": "A backbone-based single page application.",
 	"main": "index.html",
 	"scripts": {
-		"start": "./node_modules/.bin/live-server"
+		"start": "./node_modules/.bin/live-server",
+		"build-css": "node-sass --include-path scss css/app.scss css/app.css",
+		"watch-css": "nodemon -e scss -x \"npm run build-css\""
 	},
 	"devDependencies": {
 		"live-server": "~0.8.1"
