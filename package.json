@@ -1,14 +1,18 @@
 {
-	"name": "greek-in-tech",
-	"version": "0.1.0",
-	"description": "A backbone-based single page application.",
-	"main": "index.html",
-	"scripts": {
-		"start": "./node_modules/.bin/live-server"
-	},
-	"devDependencies": {
-		"live-server": "~0.8.1"
-	},
-	"author": "John Tsevdos <tsevdosjohn@gmail.com>",
-	"license": "MIT"
+  "name": "greek-in-tech",
+  "version": "0.1.0",
+  "description": "A backbone-based single page application.",
+  "main": "index.html",
+  "scripts": {
+    "start": "./node_modules/.bin/live-server",
+    "build-css": "node-sass --include-path scss css/app.scss css/app.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "devDependencies": {
+    "live-server": "~0.8.1",
+    "node-sass": "^3.4.2",
+    "nodemon": "^1.8.1"
+  },
+  "author": "John Tsevdos <tsevdosjohn@gmail.com>",
+  "license": "MIT"
 }

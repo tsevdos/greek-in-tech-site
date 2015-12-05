@@ -6,6 +6,7 @@ You need to have [node.js](https://nodejs.org/) and [bower](http://bower.io/) an
 
 1. `npm install`
 2. `npm start`
+3. temporary until scss rendering is moved to the server: open a new terminal and `npm run watch-css`
 
 After installation you need only need to start the server using the last command.
 
