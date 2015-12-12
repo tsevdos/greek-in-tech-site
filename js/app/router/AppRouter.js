@@ -10,7 +10,7 @@ define([
 	return Backbone.Router.extend({
 		routes: {
 			'': 'showRandomEntry',
-			'entry/:id': 'showEntry'
+			'entry/:id(/:title)': 'showEntry'
 		},
 
 		initialize: function() {
@@ -27,6 +27,8 @@ define([
 
 		showEntry: function(id) {
 			var entry = this.entries.findWhere({ id : parseInt(id) });
+			this.navigate("entry/" + id + "/" +
+				entry.urlFriendlyTitle(), { trigger: true });
 			new EntryView({ model : entry }).render();
 		}
 
