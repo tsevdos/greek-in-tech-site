@@ -1,7 +1,7 @@
 [
 	{
 		"id" : 1,
-		"title": "Cron <span>(job scheduler)</span>",
+		"title": "Cron (job scheduler)",
 		"description": "It comes from the Greek word for time, chronos (χρόνος). Chronos is the personification of time in early Greek mythology and literature. He later appears in the Renaissance as Father Time.",
 		"viewed" : false,
 		"categories": [
@@ -35,7 +35,7 @@
 	},
 	{
 		"id" : 4,
-		"title": "<span>(Apache)</span> Cassandra",
+		"title": "(Apache) Cassandra",
 		"description": "Apache Cassandra was named after Cassandra (Greek: Κασσάνδρα, also Κασάνδρα), daughter of King Priam and Queen Hecuba of Troy. A common version of her story is that Apollo gave her the power of prophecy in order to seduce her, but when she spurned his advances, he spat into her mouth to ensure that Cadandra’s prophesies fell on deaf ears.",
 		"viewed" : false,
 		"categories": [
@@ -77,7 +77,7 @@
 	},
 	{
 		"id" : 8,
-		"title": "Kerberos <span>(protocol)</span>",
+		"title": "Kerberos (protocol)",
 		"description": "The protocol was named after Kerberos (or Cerberus) in Greek mythology, the ferocious three-headed guard dog of Hades. Its designers conceived it primarily as a client–server model and it provides mutual authentication - both the user and the server verify each other's identity.",
 		"viewed" : false,
 		"categories": [
@@ -177,7 +177,7 @@
 	},
 	{
 		"id" : 17,
-		"title": "Mosaic <span>(web browser)</span>",
+		"title": "Mosaic (web browser)",
 		"description": "Mosaic is the art of creating images with an assemblage of small pieces of colored glass, stone, or other materials. It comes from the Greek word mouseion, 'place holy to the Muses,' and may have been originally dedicated to the Muses. This applied art form shares a name with a discontinued early web browser credited with popularizing the World Wide Web. Mosaic or NCSA Mosaic was named for its support of multiple internet protocols and was also the first browser to display images. ",
 		"viewed" : false,
 		"categories": [
@@ -217,7 +217,7 @@
 	},
 	{
 		"id" : 21,
-		"title": "Hyper <span>(text, link, etc.)</span>",
+		"title": "Hyper (text, link, etc.)",
 		"description": "The English prefix hyper- comes from the Greek prefix \"ὑπερ-\" and means \"over\" or \"beyond\" and signifies the overcoming of the previous constraints. It has similar linguistic roots as the prefix \"super-\" which comes from Latin.",
 		"viewed" : false,
 		"categories": [
