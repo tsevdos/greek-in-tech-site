@@ -256,5 +256,14 @@
 			"software",
 			"IDE"
 		]
+	},
+	{
+		"id" : 25,
+		"title": "Homoiconic",
+		"description": "Derived from \"homo\" (όμο) meaning the same and \"icon\" (εικών) meaning representation. A progamming language is said to be homoiconic when it shares the same representation for code and data. A well-known example is LISP, where the primary primitive data structure is the list and programs are written as lists. As such, code can be manipulated as if it was data and vice-versa",
+		"viewed" : false,
+		"categories": [
+			"programming"
+		]
 	}
 ]
