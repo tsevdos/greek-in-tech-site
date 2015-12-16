@@ -1,0 +1,7 @@
+install:
+  - npm install
+script: grunt mocha
+# whitelisting gh-pages https://help.github.com/articles/troubleshooting-github-pages-build-failures/#working-with-continuous-integration-services
+branches:
+  only:
+    - gh-pages

@@ -1,3 +1,5 @@
+[![Build Status](https://api.travis-ci.org/tsevdos/greek-in-tech.svg?branch=gh-pages)](https://travis-ci.org/tsevdos/greek-in-tech)
+
 # Greek in Tech
 A project that demonstrates many greek words and names that we constantly use on modern computing and software engineering. You can view the site on [greekintech.com](http://greekintech.com/).
 
