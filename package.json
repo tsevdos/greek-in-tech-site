@@ -1,14 +1,18 @@
 {
-	"name": "greek-in-tech",
-	"version": "0.1.0",
-	"description": "A backbone-based single page application.",
-	"main": "index.html",
-	"scripts": {
-		"start": "./node_modules/.bin/live-server"
-	},
-	"devDependencies": {
-		"live-server": "~0.8.1"
-	},
-	"author": "John Tsevdos <tsevdosjohn@gmail.com>",
-	"license": "MIT"
+  "name": "greek-in-tech",
+  "version": "0.1.0",
+  "description": "A backbone-based single page application.",
+  "main": "index.html",
+  "scripts": {
+    "start": "./node_modules/.bin/live-server"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "grunt": "^0.4.5",
+    "grunt-mocha": "^0.4.15",
+    "live-server": "~0.8.1",
+    "mocha": "^2.3.4"
+  },
+  "author": "John Tsevdos <tsevdosjohn@gmail.com>",
+  "license": "MIT"
 }
