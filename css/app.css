@@ -251,3 +251,33 @@ footer li {
 	color: rgba(0, 0, 0, 0.6);
 	background:#fff;
 }
+
+.holder{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+
+.loader {
+	width: 8px;
+	height: 8px;
+	margin: 200px auto;
+	opacity: 0.5;
+	border-radius: 50%;
+	box-shadow:
+	0 -14px 0 rgba(0,0,0,0.8),
+		   10px -10px 0 rgba(0,0,0,0.7),
+		   14px 0px 1px rgba(0,0,0,0.6),
+		   10px 10px 1px rgba(0,0,0,0.5),
+		   0px 14px 2px rgba(0,0,0,0.4),
+		   -10px 10px 2px rgba(0,0,0,0.3),
+		   -14px 0px 3px rgba(0,0,0,0.2),
+		   -10px -10px 3px rgba(0,0,0,0.1);
+	transform-origin: 50%;
+	animation: load 0.5s steps(8, end) infinite;
+}
+
+@keyframes load {
+	0% { transform: rotate(0); }
+	100% { transform: rotate(360deg); }
+}
