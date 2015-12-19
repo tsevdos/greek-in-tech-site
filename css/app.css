@@ -143,32 +143,37 @@ footer {
 	font-size: 0.5em;
 }
 
-footer p {
-	float: left;
-	line-height: 2.8em;
+footer .right,
+footer .left {
+    width: 50%;
+    float: left;
 }
 
-footer ul,
-footer li {
+footer .right ul,
+footer .right li {
 	list-style-type: none;
 }
 
-.social {
-	float: left;
-	margin: 0 0 0 1em;
+footer p {
+    line-height: 2.8em;
+    vertical-align: middle;
 }
 
-.social ul {
-	width: 100%;
-	margin: 0 auto;
-	text-align: center;
+footer .right {
+    text-align: right;
 }
 
-.social ul li {
+footer .right p,
+footer .right ul {
+    display: inline-block;
+    float: none;
+}
+
+footer .right ul li {
 	float: none;
 	display:inline-block;
 }
-.social ul a {
+footer .right ul a {
 	font-size: 2.4em;
 }
 
@@ -209,6 +214,15 @@ footer li {
 	top:1px;
 }
 
+
+@media (max-width: 724px) {
+    footer .right,
+    footer .left {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
 
 @media (max-width: 640px) {
 
