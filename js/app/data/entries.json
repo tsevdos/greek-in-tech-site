@@ -273,8 +273,8 @@
 		"viewed" : false,
 		"categories": [
 			"security",
-                        "communication",
-                        "software"
+			"communication",
+			"software"
 		]
 	},
 	{
@@ -284,7 +284,18 @@
 		"viewed" : false,
 		"categories": [
 			"security",
-                        "communication"
+			"communication"
+		]
+	},
+	{
+		"id" : 28,
+		"title": "Entropy",
+		"description": "Comes from the word tropee (τροπή) which means \"turning toward\" or \"transformation\". Entropy is the randomness collected by an application for use in cryptography or other that requires random data. This randomness is often collected from hardware sources such as mouse movements or randomness generators.",
+		"viewed" : false,
+		"categories": [
+			"cryptography",
+			"security",
+			"communication"
 		]
 	}
 ]
