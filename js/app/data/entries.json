@@ -276,5 +276,15 @@
                         "communication",
                         "software"
 		]
+	},
+	{
+		"id" : 27,
+		"title": "Steganography",
+		"description": "Combines the words steganos (στεγανός), meaning \"covered, concealed, or protected\", and graphein (γράφειν) meaning \"writing\". Steganography is the practice of concealing a file, message, image or video within another file.",
+		"viewed" : false,
+		"categories": [
+			"security",
+                        "communication"
+		]
 	}
 ]
