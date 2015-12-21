@@ -297,5 +297,16 @@
 			"security",
 			"communication"
 		]
+	},
+	{
+		"id" : 29,
+		"title": "Monolithic",
+		"description": "Derives from monólithos (μονόλιθος) which actually means \"made of one stone\". A software is called \"monolithic\" if it has a monolithic architecture, in which functionally distinguishable aspects are not separate components but are all integrated.",
+		"viewed" : false,
+		"categories": [
+			"programming",
+			"architecture",
+			"software"
+		]
 	}
 ]
