@@ -308,5 +308,16 @@
 			"architecture",
 			"software"
 		]
+	},
+	{
+		"id" : 30,
+		"title": "Authentication",
+		"description": "From the word authentikos (αυθεντικός) meaning \"real, genuine\", is the act of confirming the truth of an attribute of a single piece of data, for example an identity, claimed true by an entity.",
+		"viewed" : false,
+		"categories": [
+			"programming",
+			"software",
+			"security"
+		]
 	}
 ]
