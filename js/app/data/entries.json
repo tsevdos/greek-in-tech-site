@@ -265,5 +265,16 @@
 		"categories": [
 			"programming"
 		]
+	},
+	{
+		"id" : 26,
+		"title": "Cryptography",
+		"description": "Derived from kryptós (κρυπτός) for \"hidden, secret\" and graphein (γράφειν) for \"writing\". Cryptography is the practice and study of techniques for secure communication in the presence of third parties.",
+		"viewed" : false,
+		"categories": [
+			"security",
+                        "communication",
+                        "software"
+		]
 	}
 ]
