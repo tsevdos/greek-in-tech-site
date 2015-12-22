@@ -319,5 +319,15 @@
 			"software",
 			"security"
 		]
+	},
+	{
+		"id" : 31,
+		"title": "Mouse",
+		"description": "Comes from the word mees (μυς) which is the ancient Greek name of the rodent mouse. In the world of computing it's the name of a hardware device, the well-known source of input of a computer system.",
+		"viewed" : false,
+		"categories": [
+			"peripheral",
+			"hardware"
+		]
 	}
 ]
