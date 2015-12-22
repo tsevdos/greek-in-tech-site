@@ -329,5 +329,14 @@
 			"peripheral",
 			"hardware"
 		]
+	},
+	{
+		"id" : 32,
+		"title": "Electricity",
+		"description": "Derived from the word elektron (ήλεκτρον) for amber. Ancient Greeks noticed that amber attracted small objects when rubbed with fur. Along with lightning, this phenomenon is one of humanity's earliest recorded experiences with electricity.",
+		"viewed" : false,
+		"categories": [
+			"science"
+		]
 	}
 ]
