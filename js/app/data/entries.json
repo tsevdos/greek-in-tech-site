@@ -265,5 +265,87 @@
 		"categories": [
 			"programming"
 		]
+	},
+	{
+		"id" : 26,
+		"title": "Cryptography",
+		"description": "Derived from kryptós (κρυπτός) for \"hidden, secret\" and graphein (γράφειν) for \"writing\". Cryptography is the practice and study of techniques for secure communication in the presence of third parties.",
+		"viewed" : false,
+		"categories": [
+			"security",
+			"communication",
+			"software"
+		]
+	},
+	{
+		"id" : 27,
+		"title": "Steganography",
+		"description": "Combines the words steganos (στεγανός), meaning \"covered, concealed, or protected\", and graphein (γράφειν) meaning \"writing\". Steganography is the practice of concealing a file, message, image or video within another file.",
+		"viewed" : false,
+		"categories": [
+			"security",
+			"communication"
+		]
+	},
+	{
+		"id" : 28,
+		"title": "Entropy",
+		"description": "Comes from the word tropee (τροπή) which means \"turning toward\" or \"transformation\". Entropy is the randomness collected by an application for use in cryptography or other that requires random data. This randomness is often collected from hardware sources such as mouse movements or randomness generators.",
+		"viewed" : false,
+		"categories": [
+			"cryptography",
+			"security",
+			"communication"
+		]
+	},
+	{
+		"id" : 29,
+		"title": "Monolithic",
+		"description": "Derives from monólithos (μονόλιθος) which actually means \"made of one stone\". A software is called \"monolithic\" if it has a monolithic architecture, in which functionally distinguishable aspects are not separate components but are all integrated.",
+		"viewed" : false,
+		"categories": [
+			"programming",
+			"architecture",
+			"software"
+		]
+	},
+	{
+		"id" : 30,
+		"title": "Authentication",
+		"description": "From the word authentikos (αυθεντικός) meaning \"real, genuine\", is the act of confirming the truth of an attribute of a single piece of data, for example an identity, claimed true by an entity.",
+		"viewed" : false,
+		"categories": [
+			"programming",
+			"software",
+			"security"
+		]
+	},
+	{
+		"id" : 31,
+		"title": "Mouse",
+		"description": "Comes from the word mees (μυς) which is the ancient Greek name of the rodent mouse. In the world of computing it's the name of a hardware device, the well-known source of input of a computer system.",
+		"viewed" : false,
+		"categories": [
+			"peripheral",
+			"hardware"
+		]
+	},
+	{
+		"id" : 32,
+		"title": "Electricity",
+		"description": "Derived from the word elektron (ήλεκτρον) for amber. Ancient Greeks noticed that amber attracted small objects when rubbed with fur. Along with lightning, this phenomenon is one of humanity's earliest recorded experiences with electricity.",
+		"viewed" : false,
+		"categories": [
+			"science"
+		]
+	},
+	{
+		"id" : 33,
+		"title": "Parallelism",
+		"description": "From the word parállelos (παράλληλος) which combines two words \"παρά\" + \"άλληλος\" meaning \"along each other\". Parallelism is a type of computation in which calculations are carried out simultaneously.",
+		"viewed" : false,
+		"categories": [
+			"programming"
+		]
 	}
 ]
