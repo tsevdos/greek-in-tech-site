@@ -265,5 +265,14 @@
 		"categories": [
 			"programming"
 		]
+	},
+	{
+		"id" : 26,
+		"title": "Disk (or disc)",
+		"description": "The word \"disk\" entered English in 1664 when it meant a round, flat surface. It was borrowed from the Latin \"discus\", which came from the Greek \"diskos\" (δίσκος). Homer refers to discus throwing (δισκοβολία) in his epics Odyssey and Iliad",
+		"viewed" : false,
+		"categories": [
+			"hardware"
+		]
 	}
 ]
