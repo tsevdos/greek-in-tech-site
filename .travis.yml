@@ -5,6 +5,8 @@ script: grunt mocha
 branches:
   only:
     - gh-pages
+after_script:
+  - codeclimate-test-reporter < lcov.info
 addons:
     code_climate:
         repo_token: 6a4ed97040a8639e6a1e9efbfd9720fc716b0c5ae991e0ec7a378891b955d6df
