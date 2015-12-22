@@ -347,5 +347,23 @@
 		"categories": [
 			"programming"
 		]
+	},	
+	{
+		"id" : 34,
+		"title": "Isomorphism",
+		"description": "In mathematics, an isomorphism (from the Ancient Greek: ἴσος isos \"equal\", and μορφή morphe \"form\" or \"shape\") is a homomorphism (or more generally a morphism) that admits an inverse. Two mathematical objects are isomorphic if an isomorphism exists between them. In the development world there are a lot of isomorphic frameworks lately",
+		"viewed" : false,
+		"categories": [
+			"programming"
+		]
+	},
+	{
+		"id" : 35,
+		"title": "Ephemeral",
+		"description": "Ephemerality (from Greek εφήμερος – ephemeros, literally \"lasting only one day\") is the concept of things being transitory, existing only briefly. An ephemeral port is a short-lived transport protocol port for Internet Protocol (IP) communications allocated automatically from a predefined range by the IP software",
+		"viewed" : false,
+		"categories": [
+			"networking"
+		]
 	}
 ]
