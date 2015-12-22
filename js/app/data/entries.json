@@ -338,5 +338,14 @@
 		"categories": [
 			"science"
 		]
+	},
+	{
+		"id" : 33,
+		"title": "Parallelism",
+		"description": "From the word parállelos (παράλληλος) which combines two words \"παρά\" + \"άλληλος\" meaning \"along each other\". Parallelism is a type of computation in which calculations are carried out simultaneously.",
+		"viewed" : false,
+		"categories": [
+			"programming"
+		]
 	}
 ]
