@@ -365,5 +365,17 @@
 		"categories": [
 			"networking"
 		]
+	},
+	{
+		"id" : 36,
+		"title": "Cube (OLAP)",
+		"description": "In computer science and BI an OLAP Cube is a collection of Dimensions, Measures and Hierarchies that are preprocessed and stored in a way that allows data to appear instantaneously when a user makes his/her analysis. The term cube is derived from \"kubos\" (κύβος). In ancient greek, kubos was a die. Later on the meaning expanded to many cube-shaped objects.",
+		"viewed" : false,
+		"categories": [
+			"big data",
+			"databases",
+			"data-warehouse",
+			"business intalligence"
+		]
 	}
 ]
