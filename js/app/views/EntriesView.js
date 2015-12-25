@@ -18,8 +18,8 @@ define([
 			if (e && $(e.target).is('a')) {
 				return;
 			}
-			var unviewedEntry = this.collection.getUnviewedEntryID();
-			this.trigger('routeToUnviewedEntry', unviewedEntry);
+			var unviewedEntryID = this.collection.getUnviewedEntryID();
+			this.trigger('routeToUnviewedEntry', unviewedEntryID);
 		},
 
 		handleKeyboardEvent: function(e, b) {
@@ -37,7 +37,8 @@ define([
 		},
 
 		moveToEntry: function(isForward) {
-			isForward ? this.renderRandomEntry() : window.history.back();
+			isForward ? this.renderRandomEntry() :
+				this.trigger('navigateBackwards');
 		},
 	});
 });
