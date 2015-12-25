@@ -11,6 +11,10 @@ define([
 
 		initialize: function(options) {
 			this.collection = options.collection;
+
+			_.bindAll(this, "handleMobileEvent");
+			var mc = new Hammer(this.$el.get(0));
+			mc.on('swiperight swipeleft', this.handleMobileEvent);
 		},
 
 		renderRandomEntry: function(e) {
@@ -22,7 +26,7 @@ define([
 			this.trigger('routeToUnviewedEntry', unviewedEntryID);
 		},
 
-		handleKeyboardEvent: function(e, b) {
+		handleKeyboardEvent: function(e) {
 			// http://www.javascriptkeycode.com/
 			var backKeys = [37, 72], forwardKeys = [39, 76], space = [32];
 
@@ -32,6 +36,12 @@ define([
 
 			var isForward = _.contains(forwardKeys, e.keyCode) ||
 				(space == e.keyCode && !e.shiftKey);
+			this.moveToEntry(isForward);
+			e.preventDefault();
+		},
+
+		handleMobileEvent: function(e) {
+			var isForward = e.type == "swipeleft";
 			this.moveToEntry(isForward);
 			e.preventDefault();
 		},

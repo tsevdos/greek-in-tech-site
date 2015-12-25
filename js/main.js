@@ -4,7 +4,8 @@ requirejs.config({
 		jquery: '../vendor/jQuery/dist/jquery.min',
 		underscore: '../vendor/underscore/underscore-min',
 		backbone: '../vendor/backbone/backbone-min',
-		text : "../vendor/requirejs-text/text"
+		text : "../vendor/requirejs-text/text",
+		hammer : "../vendor/hammerjs/hammer"
 	},
 	shim: {
 		backbone: {
