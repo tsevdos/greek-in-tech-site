@@ -125,7 +125,8 @@ ul li {
 	list-style: none;
 }
 
-ul.tags li:before {
+ul.tags li:before,
+ul.references li:before {
 	content: "";
 	display: inline-block;
 	width: 8px;
@@ -136,6 +137,23 @@ ul.tags li:before {
 	margin-right: 10px;
 	position: relative;
 	top: -1px;
+}
+
+.references-copy {
+	clear: both;
+	margin: 0;
+}
+
+ul.references li {
+	clear: both;
+	margin: 0;
+}
+
+ul.references li a {
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	-ms-word-break: break-all;
+	word-break: break-all;
 }
 
 footer {
