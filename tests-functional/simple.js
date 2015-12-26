@@ -4,6 +4,8 @@ casper.test.begin('site navigation: entry changed on click', function suite(test
 		test.assert(this.status().currentHTTPStatus == 200, "page loads successfully");
 	});
 
+	casper.wait(3000);
+
 	casper.then(function() {
 		title = this.fetchText('h1');
 		test.assertTruthy(title, 'title has value');

@@ -5,6 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "./node_modules/.bin/live-server",
+    "test-webserver": "./node_modules/.bin/live-server --no-browser &",
     "test": "npm run test-unit && npm run test-functional",
     "test-unit": "grunt mocha",
     "test-functional": "casperjs test tests-functional/simple.js"
