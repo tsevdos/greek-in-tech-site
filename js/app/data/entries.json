@@ -332,24 +332,15 @@
 	},
 	{
 		"id" : 32,
-		"title": "Electricity",
-		"description": "Derived from the word elektron (ήλεκτρον) for amber. Ancient Greeks noticed that amber attracted small objects when rubbed with fur. Along with lightning, this phenomenon is one of humanity's earliest recorded experiences with electricity.",
-		"viewed" : false,
-		"categories": [
-			"science"
-		]
-	},
-	{
-		"id" : 33,
 		"title": "Parallelism",
 		"description": "From the word parállelos (παράλληλος) which combines two words \"παρά\" + \"άλληλος\" meaning \"along each other\". Parallelism is a type of computation in which calculations are carried out simultaneously.",
 		"viewed" : false,
 		"categories": [
 			"programming"
 		]
-	},	
+	},
 	{
-		"id" : 34,
+		"id" : 33,
 		"title": "Isomorphism",
 		"description": "In mathematics, an isomorphism (from the Ancient Greek: ἴσος isos \"equal\", and μορφή morphe \"form\" or \"shape\") is a homomorphism (or more generally a morphism) that admits an inverse. Two mathematical objects are isomorphic if an isomorphism exists between them. In the development world there are a lot of isomorphic frameworks lately",
 		"viewed" : false,
@@ -358,7 +349,7 @@
 		]
 	},
 	{
-		"id" : 35,
+		"id" : 34,
 		"title": "Ephemeral",
 		"description": "Ephemerality (from Greek εφήμερος – ephemeros, literally \"lasting only one day\") is the concept of things being transitory, existing only briefly. An ephemeral port is a short-lived transport protocol port for Internet Protocol (IP) communications allocated automatically from a predefined range by the IP software",
 		"viewed" : false,
@@ -367,7 +358,7 @@
 		]
 	},
 	{
-		"id" : 36,
+		"id" : 35,
 		"title": "Cube (OLAP)",
 		"description": "In computer science and BI an OLAP Cube is a collection of Dimensions, Measures and Hierarchies that are preprocessed and stored in a way that allows data to appear instantaneously when a user makes his/her analysis. The term cube is derived from \"kubos\" (κύβος). In ancient greek, kubos was a die. Later on the meaning expanded to many cube-shaped objects.",
 		"viewed" : false,
@@ -376,6 +367,80 @@
 			"databases",
 			"data-warehouse",
 			"business intalligence"
+		]
+	},
+	{
+		"id": 36,
+		"title": "Schema",
+		"description": "The word schema comes from the Greek word σχήμα (skhēma), which means shape, or more generally, plan. A database schema describes the structure of its database system.",
+		"viewed": false,
+		"categories": [
+			"databases"
+		]
+	},
+	{
+		"id": 37,
+		"title": "(Adobe) Acrobat",
+		"description": "Adobe Acrobat is a family of application software and Web services developed by Adobe Systems to view, create, manipulate, print and manage files in Portable Document Format (PDF). Based on ancient Greek word ἀκροβάτης‎ (akrobátēs, \"walking on tiptoe, climbing aloft\").",
+		"viewed": false,
+		"categories": [
+			"software"
+		]
+	},
+	{
+		"id": 38,
+		"title": "Alpha / Beta",
+		"description": "A software release life cycle contains the \"alpha\" and \"beta\" stages of development. The alpha phase of the release life cycle is the first phase to begin software testing (alpha is the first letter of the Greek alphabet, used also as the number 1). Beta, named after the second letter of the Greek alphabet, is the software development phase following alpha. Beta phase generally begins when the software is feature complete but likely to contain a number of known or unknown bugs.",
+		"viewed": false,
+		"categories": [
+			"software",
+			"development"
+		]
+	},
+	{
+		"id": 39,
+		"title": "Disk (or disc)",
+		"description": "From Ancient Greek δίσκος (dískos, \"a circular plate suited for hurling\"), from δικεῖν ‎(dikeîn, \"to hurl, to launch\").",
+		"viewed": false,
+		"categories": [
+			"hardware"
+		]
+	},
+	{
+		"id": 40,
+		"title": "Program",
+		"description": "A computer program is a collection of instructions that performs a specific task when executed by a computer. The word program comes from Ancient Greek πρόγραμμα ‎(prógramma, \"a written public notice, an edict\").",
+		"viewed": false,
+		"categories": [
+			"hardware"
+		]
+	},
+	{
+		"id": 41,
+		"title": "(Google) Chrome / Chromium",
+		"description": "Google Chrome / Chromium are web browsers developed by Google. Their names are derived from the Greek word χρῶμα, chrōma, meaning color.",
+		"viewed": false,
+		"categories": [
+			"software",
+			"browser"
+		]
+	},
+	{
+		"id": 42,
+		"title": "Automaton",
+		"description": "The word \"automaton\" is the latinization of the Greek αὐτόματον, automaton, \"acting of one's own will\". An automaton (plural: automata or automatons) is a self-operating machine, or a machine or control mechanism designed to follow automatically a predetermined sequence of operations, or respond to predetermined instructions.",
+		"viewed": false,
+		"categories": [
+			"hardware"
+		]
+	},
+	{
+		"id": 43,
+		"title": "Cyber",
+		"description": "The prefix cyber- is derived from \"cybernetic,\" which comes from the Greek word κυβερνητικός meaning skilled in steering or governing. It is used in the terms cyberspace, cyberpunk, cybergoth, cyberlaw, cybercrime, cyberwarfare, cyberterrorism, cybersex, and cyberbullying, among others.",
+		"viewed": false,
+		"categories": [
+			"internet"
 		]
 	}
 ]

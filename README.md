@@ -1,3 +1,4 @@
+[![Code Climate](https://codeclimate.com/github/tsevdos/greek-in-tech/badges/gpa.svg)](https://codeclimate.com/github/tsevdos/greek-in-tech)
 [![Build Status](https://api.travis-ci.org/tsevdos/greek-in-tech.svg?branch=gh-pages)](https://travis-ci.org/tsevdos/greek-in-tech)
 
 # Greek in Tech
@@ -35,7 +36,3 @@ Make sure you have installed phantomjs, casperjs globally: `npm install -g phant
 ```
 npm run test-functional
 ```
-
-## TODO
-1. Add more entries
-2. Minimize js with rjs
