@@ -15,11 +15,27 @@ After installation you need only need to start the server using the last command
 All the entries are available from a [single JSON file](https://github.com/tsevdos/greek-in-tech/blob/master/js/app/data/entries.json). You can contribute entries with a pull request. If you don't want to mess with a pull request you can suggest an entry by [creating an issue](https://github.com/tsevdos/greek-in-tech/issues). If you still find it hard, you can drop me an email (see my profile).
 
 ## Run tests
+The test suite contains unit tests and functional tests
+
+To run all the tests
+```
+npm test
+```
+
+### Run unit tests
 Make sure grunt is installed globally on your system `npm install -g grunt-cli` and that you have run `npm install` first.
 
 ```
-grunt mocha
+npm run test-unit
 ```
+
+### Run functional tests
+Make sure you have installed phantomjs, casperjs globally: `npm install -g phantomjs && npm install -g casperjs`
+
+```
+npm run test-functional
+```
+
 ## TODO
 1. Add more entries
 2. Minimize js with rjs

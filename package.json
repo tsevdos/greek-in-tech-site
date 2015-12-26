@@ -4,7 +4,10 @@
   "description": "A backbone-based single page application.",
   "main": "index.html",
   "scripts": {
-    "start": "./node_modules/.bin/live-server"
+    "start": "./node_modules/.bin/live-server",
+    "test": "npm run test-unit && npm run test-functional",
+    "test-unit": "grunt mocha",
+    "test-functional": "casperjs test tests-functional/simple.js"
   },
   "devDependencies": {
     "chai": "^3.4.1",
