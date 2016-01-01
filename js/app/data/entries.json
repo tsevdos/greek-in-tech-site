@@ -3,7 +3,6 @@
 		"id" : 1,
 		"title": "Cron (job scheduler)",
 		"description": "It comes from the Greek word for time, chronos (χρόνος). Chronos is the personification of time in early Greek mythology and literature. He later appears in the Renaissance as Father Time.",
-		"viewed" : false,
 		"categories": [
 			"OS",
 			"unix",
@@ -16,7 +15,6 @@
 		"id" : 2,
 		"title": "Daemon",
 		"description": "The term coined by programmers of MIT's Project MAC, was inspired by the physicist James Clerk Maxwell's demon. It originated as an imaginary being from a thought experiment that constantly works in the background sorting molecules. In Greek mythology, a daemon is a supernatural being working in the background, with no particular bias towards good or evil. The daemon concept was subsequently adopted by Unix systems, however, BSD and some of its derivatives have used a Christian interpretation of the mythological deamon as their mascot rather than a Greek daemon.",
-		"viewed" : false,
 		"categories": [
 			"OS",
 			"unix",
@@ -29,7 +27,6 @@
 		"id" : 3,
 		"title": "Polymorphism",
 		"description": "In programming languages and type theory, polymorphism is the provision of a single interface to entities of different types. Polymorphism comes from the greek words, polys (πολύς), meaning \"much\" or \"many\" and morphē (μορφή), meaning \"form\" or \"shape\".",
-		"viewed" : false,
 		"categories": [
 			"programming",
 			"coding"
@@ -40,7 +37,6 @@
 		"id" : 4,
 		"title": "(Apache) Cassandra",
 		"description": "Apache Cassandra was named after Cassandra (Greek: Κασσάνδρα, also Κασάνδρα), daughter of King Priam and Queen Hecuba of Troy. A common version of her story is that Apollo gave her the power of prophecy in order to seduce her, but when she spurned his advances, he spat into her mouth to ensure that Cadandra’s prophesies fell on deaf ears.",
-		"viewed" : false,
 		"categories": [
 			"open source",
 			"databases",
@@ -53,7 +49,6 @@
 		"id" : 5,
 		"title": "Pseudo",
 		"description": "The prefix pseudo comes from pseudes (ψευδής,), meaning \"lying\" or \"false\". The term refers to something which appears, on the surface, to be one thing, but is actually another. Pseudo may connote coincidence, imitation, intentional deception, or a combination thereof.",
-		"viewed" : false,
 		"categories": [
 			"programming",
 			"coding",
@@ -65,7 +60,6 @@
 		"id" : 6,
 		"title": "Trojan horse",
 		"description": "The term comes from the Ancient Greek story of the wooden horse that was used by the Greek troops to invade Troy by stealth from within the city’s walls.",
-		"viewed" : false,
 		"categories": [
 			"social engineering",
 			"program"
@@ -76,7 +70,6 @@
 		"id" : 7,
 		"title": "Technology",
 		"description": "Technology derives from the Greek words techne (τέχνη), meaning art, skill or sleight of hand and logia (λογία), which refers to a collection of techniques, skills and processes used in the production of goods, services or in the accomplishment of objectives. It is easy to see how these concepts apply to our contemporary understanding of technology.",
-		"viewed" : false,
 		"categories": [
 			"science"
 		],
@@ -86,7 +79,6 @@
 		"id" : 8,
 		"title": "Kerberos (protocol)",
 		"description": "The protocol was named after Kerberos (or Cerberus) in Greek mythology, the ferocious three-headed guard dog of Hades. Its designers conceived it primarily as a client–server model and it provides mutual authentication - both the user and the server verify each other's identity.",
-		"viewed" : false,
 		"categories": [
 			"networking",
 			"authentication protocol"
@@ -97,7 +89,6 @@
 		"id" : 9,
 		"title": "Skeuomorph – Skeuomorphism",
 		"description": "The term skeuomorph is compounded from the Greek: skéuos (σκεῦος), meaning \"container\" or \"tool\", and morphḗ (μορφή), \"shape\". A skeuomorph is a derivative object that retains ornamental design cues from structures that were necessary in the original, like a software calendar that imitates the appearance of binding on a paper desk calendar. Skeuomorph can be used to describe computer and mobile interfaces.",
-		"viewed" : false,
 		"categories": [
 			"design",
 			"interface"
@@ -108,7 +99,6 @@
 		"id" : 10,
 		"title": "Eclipse",
 		"description": "The term eclipse is derived from the ancient Greek ékleipsis (ἔκλειψις), which means \"the abandonment, downfall, or darkening of a heavenly body\". Eclipse software, initially developed by IBM, is primarily used to produce Java applications. Many versions of Eclipse have been named after a celestial bodies, such as Juno, Luna and Mars.",
-		"viewed" : false,
 		"categories": [
 			"IDE",
 			"programming",
@@ -122,7 +112,6 @@
 		"id" : 11,
 		"title": "Android",
 		"description": "The word was coined from the prefix andro- for \"man\" or \"male\" (ἀνδρ) and the suffix -oid \"having the form or likeness of\". It has recently come to refer to an operating system endorsed by Google, which has become a leader in the mobile device market.",
-		"viewed" : false,
 		"categories": [
 			"OS",
 			"mobile",
@@ -135,7 +124,6 @@
 		"id" : 12,
 		"title": "Icon",
 		"description": "An icon, from the Greek eikōn (εἰκών) defined as \"image\", is generally a flat panel painting depicting religious figures or scenes. The term has been adapted to refer to a graphical user interface (GUI), which is the visual symbol identifying a command, file, directory or device.",
-		"viewed" : false,
 		"categories": [
 			"GUI",
 			"interface"
@@ -146,7 +134,6 @@
 		"id" : 13,
 		"title": "Parameter",
 		"description": "Parameter comes from the ancient Greek words \"para\" (παρά), meaning \"beside, subsidiary\" and \"metron\" (μέτρον), meaning \"measure\". It commonly refers to a \"characteristic, feature, or measurable factor that can help in defining a particular system\". A parameter is an important element to consider in evaluation or comprehension of an event, project, or situation.",
-		"viewed" : false,
 		"categories": [
 			"programming",
 			"coding"
@@ -157,7 +144,6 @@
 		"id" : 14,
 		"title": "Asymmetric",
 		"description": "Asymmetric originated from the ancient Greek word asummetría (ἀσυμμετρία), meaning \"disproportion, deformity\". It can be found in many computing-related topics such as asymmetric cryptography, asymmetric digital subscriber line (ADSL) in internet connectivity and asymmetric multiprocessing in computer architecture.",
-		"viewed" : false,
 		"categories": [
 			"cryptography",
 			"internet connectivity",
@@ -169,7 +155,6 @@
 		"id" : 15,
 		"title": "Synchronous – Asynchronous",
 		"description": "Synchronous, meaning \"happening at the same time\", is from the Greek word synkhronos (συγχρόνως). It is a compound word formed by syn- \"together\" and -khronos \"time\". Asynchronous has the opposite meaning.",
-		"viewed" : false,
 		"categories": [
 			"computing",
 			"programming",
@@ -183,7 +168,6 @@
 		"id" : 16,
 		"title": "Anonymous",
 		"description": "Anonymity is derived from the Greek word anonymia (ἀνωνυμία), for \"without a name\" or \"namelessness\". In colloquial use, \"anonymous\" is used to describe situations where the acting person's name is unknown. Some writers have argued that namelessness, though technically correct, does not capture what is more centrally at stake in contexts of anonymity. The important idea here is that a person be unidentifiable, unreachable, or untraceable. Anonymity is seen as a technique, or a way of realizing, certain other values, such as privacy, or liberty.",
-		"viewed" : false,
 		"categories": [
 			"hacking",
 			"programming",
@@ -195,7 +179,6 @@
 		"id" : 17,
 		"title": "Mosaic (web browser)",
 		"description": "Mosaic is the art of creating images with an assemblage of small pieces of colored glass, stone, or other materials. It comes from the Greek word mouseion, 'place holy to the Muses,' and may have been originally dedicated to the Muses. This applied art form shares a name with a discontinued early web browser credited with popularizing the World Wide Web. Mosaic or NCSA Mosaic was named for its support of multiple internet protocols and was also the first browser to display images. ",
-		"viewed" : false,
 		"categories": [
 			"software",
 			"browser"
@@ -206,7 +189,6 @@
 		"id" : 18,
 		"title": "Kubernetes",
 		"description": "The Greek word kubernetes, means \"helmsman of a ship,\" or, more metaphorically, \"ruler\", while the Latin translation of \"kubernetes\" is \"gubernare\", meaning \"to rule\".",
-		"viewed" : false,
 		"categories": [
 			"open source",
 			"cluster",
@@ -218,7 +200,6 @@
 		"id" : 19,
 		"title": "Python",
 		"description": "Python (Πύθων), the dragon of Delphi, was always represented in Greek sculpture and vase-paintings as a serpent. He presided at the Delphic oracle, which was thought to exist at the center of the Earth-mother cult of Gaia, \"Earth\". Greeks considered the site to be the center of the earth, and the center of Delphi was represented by a stone; the omphalos, or navel, which Python guarded.",
-		"viewed" : false,
 		"categories": [
 			"programming language"
 		],
@@ -228,7 +209,6 @@
 		"id" : 20,
 		"title": "Meteor",
 		"description": "The root word meteor comes from the Greek meteōros (μετέωρος), meaning \"high in the air\".",
-		"viewed" : false,
 		"categories": [
 			"javascript",
 			"framework"
@@ -239,7 +219,6 @@
 		"id" : 21,
 		"title": "Hyper (text, link, etc.)",
 		"description": "The English prefix hyper- comes from the Greek prefix \"ὑπερ-\" and means \"over\" or \"beyond\" and signifies the overcoming of the previous constraints. It has similar linguistic roots as the prefix \"super-\" which comes from Latin.",
-		"viewed" : false,
 		"categories": [
 			"internet",
 			"web",
@@ -251,7 +230,6 @@
 		"id" : 22,
 		"title": "Graphics",
 		"description": "The word graphics comes from the Greek graphikos (γραφικός), for \"something written\", like an autograph, for example. The contemporary meaning of the word graphics is \"visual images or designs on some surface, such as a wall, canvas, screen, paper, or stone to inform, illustrate, or entertain\".",
-		"viewed" : false,
 		"categories": [
 			"GUI",
 			"interface"
@@ -262,7 +240,6 @@
 		"id" : 23,
 		"title": "Peripheral",
 		"description": "A peripheral is a device that is used to put information into or get information out of the computer. Peripheral comes from the ancient Greek words periphéreia (περιφέρεια), meaning \"the line around the circle, circumference, part of a circle, an arc, the outer surface\" and phérō (φέρω) \"‎bear, carry\".",
-		"viewed" : false,
 		"categories": [
 			"hardware"
 		],
@@ -272,7 +249,6 @@
 		"id" : 24,
 		"title": "Delphi",
 		"description": "In myths, the site of Delphi (Δελφοί) was believed to be the center of the \"Earth\" (\"Gaia\"),  grandmother of Zeus. People consulted the Delphic oracle Pythia (always a woman), on everything from important matters of public policy to personal affairs. The Pythia and priests of Apollo's temple kept very detailed records of their visitors, kind of like an ancient database. Delphi was originally one of many codenames of a pre-release development tool project at Borland. Borland developer Danny Thorpe suggested Delphi as a codename in reference to the Oracle of Delphi. One of the design goals of the product was to provide database connectivity to programmers as a key feature and a popular database package at the time was Oracle database; hence, \"If you want to talk to [the] Oracle, go to Delphi\".",
-		"viewed" : false,
 		"categories": [
 			"programming language",
 			"database",
@@ -285,7 +261,6 @@
 		"id" : 25,
 		"title": "Homoiconic",
 		"description": "Derived from \"homo\" (όμο) meaning the same and \"icon\" (εικών) meaning representation. A progamming language is said to be homoiconic when it shares the same representation for code and data. A well-known example is LISP, where the primary primitive data structure is the list and programs are written as lists. As such, code can be manipulated as if it was data and vice-versa",
-		"viewed" : false,
 		"categories": [
 			"programming"
 		],
@@ -295,7 +270,6 @@
 		"id" : 26,
 		"title": "Cryptography",
 		"description": "Derived from kryptós (κρυπτός) for \"hidden, secret\" and graphein (γράφειν) for \"writing\". Cryptography is the practice and study of techniques for secure communication in the presence of third parties.",
-		"viewed" : false,
 		"categories": [
 			"security",
 			"communication",
@@ -307,7 +281,6 @@
 		"id" : 27,
 		"title": "Steganography",
 		"description": "Combines the words steganos (στεγανός), meaning \"covered, concealed, or protected\", and graphein (γράφειν) meaning \"writing\". Steganography is the practice of concealing a file, message, image or video within another file.",
-		"viewed" : false,
 		"categories": [
 			"security",
 			"communication"
@@ -318,7 +291,6 @@
 		"id" : 28,
 		"title": "Entropy",
 		"description": "Comes from the word tropee (τροπή) which means \"turning toward\" or \"transformation\". Entropy is the randomness collected by an application for use in cryptography or other that requires random data. This randomness is often collected from hardware sources such as mouse movements or randomness generators.",
-		"viewed" : false,
 		"categories": [
 			"cryptography",
 			"security",
@@ -330,7 +302,6 @@
 		"id" : 29,
 		"title": "Monolithic",
 		"description": "Derives from monólithos (μονόλιθος) which actually means \"made of one stone\". A software is called \"monolithic\" if it has a monolithic architecture, in which functionally distinguishable aspects are not separate components but are all integrated.",
-		"viewed" : false,
 		"categories": [
 			"programming",
 			"architecture",
@@ -345,7 +316,6 @@
 		"id" : 30,
 		"title": "Authentication",
 		"description": "From the word authentikos (αυθεντικός) meaning \"real, genuine\", is the act of confirming the truth of an attribute of a single piece of data, for example an identity, claimed true by an entity.",
-		"viewed" : false,
 		"categories": [
 			"programming",
 			"software",
@@ -357,7 +327,6 @@
 		"id" : 31,
 		"title": "Mouse",
 		"description": "Comes from the word mees (μυς) which is the ancient Greek name of the rodent mouse. In the world of computing it's the name of a hardware device, the well-known source of input of a computer system.",
-		"viewed" : false,
 		"categories": [
 			"peripheral",
 			"hardware"
@@ -371,7 +340,6 @@
 		"id" : 32,
 		"title": "Parallelism",
 		"description": "From the word parállelos (παράλληλος) which combines two words \"παρά\" + \"άλληλος\" meaning \"along each other\". Parallelism is a type of computation in which calculations are carried out simultaneously.",
-		"viewed" : false,
 		"categories": [
 			"programming"
 		],
@@ -381,7 +349,6 @@
 		"id" : 33,
 		"title": "Isomorphism",
 		"description": "In mathematics, an isomorphism (from the Ancient Greek: ἴσος isos \"equal\", and μορφή morphe \"form\" or \"shape\") is a homomorphism (or more generally a morphism) that admits an inverse. Two mathematical objects are isomorphic if an isomorphism exists between them. In the development world there are a lot of isomorphic frameworks lately",
-		"viewed" : false,
 		"categories": [
 			"programming"
 		],
@@ -391,7 +358,6 @@
 		"id" : 34,
 		"title": "Ephemeral",
 		"description": "Ephemerality (from Greek εφήμερος – ephemeros, literally \"lasting only one day\") is the concept of things being transitory, existing only briefly. An ephemeral port is a short-lived transport protocol port for Internet Protocol (IP) communications allocated automatically from a predefined range by the IP software",
-		"viewed" : false,
 		"categories": [
 			"networking"
 		],
@@ -401,7 +367,6 @@
 		"id" : 35,
 		"title": "Cube (OLAP)",
 		"description": "In computer science and BI an OLAP Cube is a collection of Dimensions, Measures and Hierarchies that are preprocessed and stored in a way that allows data to appear instantaneously when a user makes his/her analysis. The term cube is derived from \"kubos\" (κύβος). In ancient greek, kubos was a die. Later on the meaning expanded to many cube-shaped objects.",
-		"viewed" : false,
 		"categories": [
 			"big data",
 			"databases",
@@ -414,7 +379,6 @@
 		"id": 36,
 		"title": "Schema",
 		"description": "The word schema comes from the Greek word σχήμα (skhēma), which means shape, or more generally, plan. A database schema describes the structure of its database system.",
-		"viewed": false,
 		"categories": [
 			"databases"
 		],
@@ -424,7 +388,6 @@
 		"id": 37,
 		"title": "(Adobe) Acrobat",
 		"description": "Adobe Acrobat is a family of application software and Web services developed by Adobe Systems to view, create, manipulate, print and manage files in Portable Document Format (PDF). Based on ancient Greek word ἀκροβάτης‎ (akrobátēs, \"walking on tiptoe, climbing aloft\").",
-		"viewed": false,
 		"categories": [
 			"software"
 		],
@@ -434,7 +397,6 @@
 		"id": 38,
 		"title": "Alpha / Beta",
 		"description": "A software release life cycle contains the \"alpha\" and \"beta\" stages of development. The alpha phase of the release life cycle is the first phase to begin software testing (alpha is the first letter of the Greek alphabet, used also as the number 1). Beta, named after the second letter of the Greek alphabet, is the software development phase following alpha. Beta phase generally begins when the software is feature complete but likely to contain a number of known or unknown bugs.",
-		"viewed": false,
 		"categories": [
 			"software",
 			"development"
@@ -445,7 +407,6 @@
 		"id": 39,
 		"title": "Disk (or disc)",
 		"description": "From Ancient Greek δίσκος (dískos, \"a circular plate suited for hurling\"), from δικεῖν ‎(dikeîn, \"to hurl, to launch\").",
-		"viewed": false,
 		"categories": [
 			"hardware"
 		],
@@ -455,7 +416,6 @@
 		"id": 40,
 		"title": "Program",
 		"description": "A computer program is a collection of instructions that performs a specific task when executed by a computer. The word program comes from Ancient Greek πρόγραμμα ‎(prógramma, \"a written public notice, an edict\").",
-		"viewed": false,
 		"categories": [
 			"hardware"
 		],
@@ -465,7 +425,6 @@
 		"id": 41,
 		"title": "(Google) Chrome / Chromium",
 		"description": "Google Chrome / Chromium are web browsers developed by Google. Their names are derived from the Greek word χρῶμα, chrōma, meaning color.",
-		"viewed": false,
 		"categories": [
 			"software",
 			"browser"
@@ -476,7 +435,6 @@
 		"id": 42,
 		"title": "Automaton",
 		"description": "The word \"automaton\" is the latinization of the Greek αὐτόματον, automaton, \"acting of one's own will\". An automaton (plural: automata or automatons) is a self-operating machine, or a machine or control mechanism designed to follow automatically a predetermined sequence of operations, or respond to predetermined instructions.",
-		"viewed": false,
 		"categories": [
 			"hardware"
 		],
@@ -486,7 +444,6 @@
 		"id": 43,
 		"title": "Cyber",
 		"description": "The prefix cyber- is derived from \"cybernetic,\" which comes from the Greek word κυβερνητικός meaning skilled in steering or governing. It is used in the terms cyberspace, cyberpunk, cybergoth, cyberlaw, cybercrime, cyberwarfare, cyberterrorism, cybersex, and cyberbullying, among others.",
-		"viewed": false,
 		"categories": [
 			"internet"
 		],

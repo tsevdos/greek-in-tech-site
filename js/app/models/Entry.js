@@ -4,6 +4,10 @@ define([
 
 	return Backbone.Model.extend({
 
+		initialize: function() {
+			this.set({ viewed : false });
+		},
+
 		validate: function(attrs){
 			console.log(attrs);
 			if (!attrs || attrs.title === '' || attrs.description === '') {
