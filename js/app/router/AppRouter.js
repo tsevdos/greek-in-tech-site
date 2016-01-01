@@ -5,9 +5,8 @@ define([
 	'views/LoaderView',
 	'views/EntryView',
 	'text!data/entries.json',
-	'hammer',
 	'backbone'
-], function(Entries, EntryModel, EntriesView, LoaderView, EntryView, data, Hammer) {
+], function(Entries, EntryModel, EntriesView, LoaderView, EntryView, data) {
 
 	return Backbone.Router.extend({
 		loader: new LoaderView(),
