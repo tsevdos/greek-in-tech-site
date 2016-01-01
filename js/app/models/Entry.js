@@ -6,6 +6,7 @@ define([
 
 		initialize: function() {
 			this.set({ viewed : false });
+			this.set({ urlFriendlyTitle : this.convertToSlug(this.get('title'))});
 		},
 
 		validate: function(attrs){
@@ -13,11 +14,6 @@ define([
 			if (!attrs || attrs.title === '' || attrs.description === '') {
 				return "The model must have a title and a description.";
 			}
-		},
-
-		urlFriendlyTitle: function() {
-			var title = this.get('title');
-			return this.convertToSlug(title);
 		},
 
 		// http://stackoverflow.com/questions/1053902/how-to-convert-a-title-to-a-url-slug-in-jquery#answer-1054862

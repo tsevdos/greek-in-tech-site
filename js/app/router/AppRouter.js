@@ -35,7 +35,7 @@ define([
 			this.loader.trigger('hide');
 			var entry = this.entries.findWhere({ id : parseInt(id) });
 			this.navigate("entry/" + id + "/" +
-				entry.urlFriendlyTitle(), { trigger: true });
+				entry.get('urlFriendlyTitle'), { trigger: true });
 			if (!this.initialFragment) {
 				this.initialFragment = Backbone.history.getFragment();
 			}
