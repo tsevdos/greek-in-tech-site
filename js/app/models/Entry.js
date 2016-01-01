@@ -16,13 +16,37 @@ define([
 			}
 		},
 
+		toJSON: function(){
+			// get the standard json for the object
+			var json = Backbone.Model.prototype.toJSON.apply(this, arguments);
+
+			if (this.titleContainsParenthesis(json.title)){
+				json.title = this.wrapTitleParenthesisInSpans(json.title);
+			}
+
+			return json;
+		},
+
 		// http://stackoverflow.com/questions/1053902/how-to-convert-a-title-to-a-url-slug-in-jquery#answer-1054862
 		convertToSlug: function(text) {
 			return text
 				.toLowerCase()
 				.replace(/[^\w ]+/g,'')
 				.replace(/ +/g,'-');
+		},
+
+		titleContainsParenthesis: function(title) {
+			if (title.indexOf('(') > -1 || title.indexOf(')') > -1){
+				return true;
+			}
+
+			return false;
+		},
+
+		wrapTitleParenthesisInSpans: function(title) {
+			return title.replace('(', '<span>(').replace(')', ')</span>');
 		}
+
 	});
 
 });
