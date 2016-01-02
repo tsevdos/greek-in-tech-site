@@ -7,6 +7,7 @@ define([
 		initialize: function() {
 			this.set({ viewed : false });
 			this.set({ urlFriendlyTitle : this.convertToSlug(this.get('title'))});
+			this.parseTitle();
 		},
 
 		validate: function(attrs){
@@ -16,15 +17,10 @@ define([
 			}
 		},
 
-		toJSON: function(){
-			// get the standard json for the object
-			var json = Backbone.Model.prototype.toJSON.apply(this, arguments);
-
-			if (this.titleContainsParenthesis(json.title)){
-				json.title = this.wrapTitleParenthesisInSpans(json.title);
+		parseTitle: function(){
+			if (this.titleContainsParenthesis(this.get('title'))){
+				this.set('title', this.wrapTitleParenthesisInSpans(this.get('title')));
 			}
-
-			return json;
 		},
 
 		// http://stackoverflow.com/questions/1053902/how-to-convert-a-title-to-a-url-slug-in-jquery#answer-1054862
