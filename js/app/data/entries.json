@@ -448,5 +448,29 @@
 			"internet"
 		],
 		"references": []
+	},
+	{
+		"id": 44,
+		"title": "Symfony (web application framework)",
+		"description": "Originates from the homophone word \"Symphony\" which is derived from the word συμφωνία (symphonia), meaning \"agreement / concord of sound\" and describes an extended musical composition in western classical music. Symfony is a \"full-stack\" PHP framework which promotes best practices and consists of a set of decoupled and reusable libraries. It implements the MVC architectural design pattern and many other design patterns like \"Dependency Injection\", \"Data Access Object\" and \"Observer\".",
+		"categories": [
+			"programming",
+			"frameworks"
+		],
+		"references": [
+			"https://en.wikipedia.org/wiki/Symphony#Origins",
+			"http://symfony.com/what-is-symfony"
+		]
+	},
+	{
+		"id": 45,
+		"title": "Atomicity (database systems)",
+		"description": "Atomicity comes from the word άτομος (atomos) which means \"indivisible\". It's one of the ACID properties that guarantee transaction reliability. Atomicity requires that each transaction must be \"all or nothing\", so that if one part of the transaction fails, the entire transaction fails too and the database state is left unchanged. Also the series of operations cannot be divided apart and executed partially from each other, which makes the series of operations \"indivisible\", hence the name.",
+		"categories": [
+			"databases"
+		],
+		"references": [
+			"https://en.wikipedia.org/wiki/Atomicity_(database_systems)"
+		]
 	}
 ]

@@ -17,10 +17,10 @@ define(function (require) {
 			expect(this.entries).to.be.an.instanceof(Backbone.Collection);
 		});
 
-		it('have a length property with 43 entries', function () {
+		it('have a length property with 45 entries', function () {
 			expect(this.entries).to.have.property('length');
 			expect(_.isNumber(this.entries.length)).to.be.true;
-			expect(this.entries).length(43);
+			expect(this.entries).length(45);
 		});
 
 		it('contains entry models with unique IDs', function () {
@@ -30,7 +30,7 @@ define(function (require) {
 				ids.push(entry.get('id'));
 			});
 
-			expect(ids).to.eql(_.range(1, 44));
+			expect(ids).to.eql(_.range(1, 46));
 		});
 
 		it('return an unviewed entry ID', function () {
