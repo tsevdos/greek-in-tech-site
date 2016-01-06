@@ -5,7 +5,6 @@ define([
 
 	return Backbone.Collection.extend({
 		model: Entry,
-		url: 'http://tsevdos.github.io/greek-in-tech/js/app/data/entries.json',
 
 		getUnviewedEntryID: function() {
 			var unviewedEntries = this.where({ viewed : false });
