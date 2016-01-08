@@ -10,11 +10,25 @@ define([
 			'click .twitter-share-button' : "tweetEntry"
 		},
 
+		initialize: function (options) {
+			var self = this;
+			this.CSSanimationClasses = "flipInX animated";
+			this.container = options.container;
+			this.container.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+				$(this).removeClass(self.CSSanimationClasses);
+			});
+		},
+
 		render: function() {
 			this.model.set("viewed", true);
 			this.$el.html(this.template(this.model.toJSON()));
+			this.animateView();
 
 			return this;
+		},
+
+		animateView: function() {
+			this.container.addClass(this.CSSanimationClasses);
 		},
 
 		tweetEntry: function(e) {

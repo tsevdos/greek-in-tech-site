@@ -14,7 +14,7 @@ You need to have [node.js](https://nodejs.org/) and [bower](http://bower.io/) an
 After installation you need only need to start the server using the last command.
 
 ## Contributing
-All the entries are available from a [single JSON file](https://github.com/tsevdos/greek-in-tech/blob/master/js/app/data/entries.json). You can contribute entries with a pull request. If you don't want to mess with a pull request you can suggest an entry by [creating an issue](https://github.com/tsevdos/greek-in-tech/issues). If you still find it hard, you can drop me an email (see my profile).
+All the entries are available from a [single JSON file](https://github.com/tsevdos/greek-in-tech/blob/master/js/app/data/entries.json). You can contribute entries with a pull request. If you don't want to mess with a pull request you can suggest an entry by [creating an issue](https://github.com/tsevdos/greek-in-tech/issues) or suggest it at the official [gitter chat](https://gitter.im/tsevdos/greek-in-tech). If you still find it hard, you can drop me an email (see my profile).
 
 ## Run tests
 The test suite contains unit tests and functional tests

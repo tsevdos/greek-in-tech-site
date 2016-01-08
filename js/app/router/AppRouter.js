@@ -17,13 +17,13 @@ define([
 		},
 
 		initialize: function() {
+			this.$entryEl = $('#entry');
 			this.loader.render();
 			this.entriesData = JSON.parse(data);
 			this.entries = new Entries(this.entriesData);
 			var entriesView = new EntriesView({ collection: this.entries });
 			this.listenTo(entriesView, 'routeToUnviewedEntry', this.showEntry);
-			this.listenTo(entriesView, 'navigateBackwards',
-				this.navigateBackwards);
+			this.listenTo(entriesView, 'navigateBackwards', this.navigateBackwards);
 		},
 
 		showRandomEntry: function() {
@@ -32,14 +32,18 @@ define([
 		},
 
 		showEntry: function(id) {
-			this.loader.trigger('hide');
+			if (this.loader.$el.is(':visible')) {
+				this.loader.trigger('hide');
+			}
+
 			var entry = this.entries.findWhere({ id : parseInt(id) });
 			this.navigate("entry/" + id + "/" +
 				entry.get('urlFriendlyTitle'), { trigger: true });
 			if (!this.initialFragment) {
 				this.initialFragment = Backbone.history.getFragment();
 			}
-			new EntryView({ model : entry }).render();
+
+			new EntryView({ model : entry, container : this.$entryEl }).render();
 		},
 
 		navigateBackwards: function() {
