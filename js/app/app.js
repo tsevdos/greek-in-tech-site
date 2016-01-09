@@ -1,7 +1,7 @@
 define([
-	'router/AppRouter',
-	'backbone'
-], function(AppRouter) {
+	'backbone',
+	'./router/AppRouter'
+], function(Backbone, AppRouter) {
 
 	var initialize = function() {
 		var appRouter = new AppRouter();

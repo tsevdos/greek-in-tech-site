@@ -5,13 +5,20 @@
   "main": "index.html",
   "private": true,
   "scripts": {
-    "start": "./node_modules/.bin/live-server",
+    "start": "webpack-dev-server",
+    "build": "webpack -p",
     "test-webserver": "./node_modules/.bin/live-server --no-browser &",
     "test": "npm run test-unit && npm run test-functional",
     "test-unit": "grunt mocha",
     "test-functional": "casperjs test tests-functional/simple.js",
-    "styles": "grunt styles",
-    "dev": "grunt dev"
+    "styles": "grunt styles"
+  },
+  "dependencies": {
+    "backbone": "^1.2.3",
+    "hammerjs": "^2.0.6",
+    "jquery": "^2.2.0",
+    "requirejs": "^2.1.22",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "chai": "^3.4.1",
@@ -20,7 +27,10 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-mocha": "^0.4.15",
     "live-server": "~0.8.1",
-    "mocha": "^2.3.4"
+    "mocha": "^2.3.4",
+    "raw-loader": "0.5.1",
+    "webpack": "^1.12.10",
+    "webpack-dev-server": "^1.14.0"
   },
   "author": "John Tsevdos <tsevdosjohn@gmail.com>",
   "license": "MIT"

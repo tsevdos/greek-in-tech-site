@@ -1,12 +1,13 @@
 define([
-	'collections/Entries',
-	'models/Entry',
-	'views/EntriesView',
-	'views/LoaderView',
-	'views/EntryView',
-	'text!data/entries.json',
-	'backbone'
-], function(Entries, EntryModel, EntriesView, LoaderView, EntryView, data) {
+	'backbone',
+	'jquery',
+	'../collections/Entries',
+	'../models/Entry',
+	'../views/EntriesView',
+	'../views/LoaderView',
+	'../views/EntryView',
+	'../data/entries.json'
+], function(Backbone, $, Entries, EntryModel, EntriesView, LoaderView, EntryView, data) {
 
 	return Backbone.Router.extend({
 		loader: new LoaderView(),

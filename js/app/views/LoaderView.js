@@ -1,6 +1,7 @@
 define([
-	'backbone'
-], function () {
+	'backbone',
+	'jquery'
+], function (Backbone, $) {
 	return Backbone.View.extend({
 		el: $('.loader'),
 

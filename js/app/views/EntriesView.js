@@ -1,8 +1,10 @@
 define([
-	'views/EntryView',
-	'hammer',
-	'backbone'
-], function(EntryView, Hammer){
+	'backbone',
+	'jquery',
+	'underscore',
+	'./EntryView',
+	'hammerjs',
+], function(Backbone, $, _, EntryView, Hammer){
 	return Backbone.View.extend({
 		el: $('body'),
 		events: {

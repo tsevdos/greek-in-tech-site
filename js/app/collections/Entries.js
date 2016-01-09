@@ -1,7 +1,8 @@
 define([
-	'models/Entry',
-	'backbone'
-], function (Entry) {
+	'backbone',
+	'underscore',
+	'../models/Entry',
+], function (Backbone, _, Entry) {
 
 	return Backbone.Collection.extend({
 		model: Entry,
