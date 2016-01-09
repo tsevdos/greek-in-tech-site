@@ -30,7 +30,8 @@
     "mocha": "^2.3.4",
     "raw-loader": "0.5.1",
     "webpack": "^1.12.10",
-    "webpack-dev-server": "^1.14.0"
+    "webpack-dev-server": "^1.14.0",
+    "requirejs-text": "~2.0.12"
   },
   "author": "John Tsevdos <tsevdosjohn@gmail.com>",
   "license": "MIT"
