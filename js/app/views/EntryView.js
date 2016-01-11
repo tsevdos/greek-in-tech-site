@@ -1,7 +1,9 @@
 define([
-	'text!templates/entry.html',
-	'backbone'
-], function(EntryTemplate){
+	'backbone',
+	'jquery',
+	'underscore',
+	'../templates/entry.html'
+], function(Backbone, $, _, EntryTemplate){
 	return Backbone.View.extend({
 		el: $('#entry'),
 		template: _.template(EntryTemplate),

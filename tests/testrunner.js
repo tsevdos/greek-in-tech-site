@@ -1,11 +1,11 @@
 requirejs.config({
 	baseUrl: '../js/app',
 	paths: {
-		jquery: '../vendor/jQuery/dist/jquery.min',
-		underscore: '../vendor/underscore/underscore-min',
-		backbone: '../vendor/backbone/backbone-min',
-		text : '../vendor/requirejs-text/text',
-		hammer : '../vendor/hammerjs/hammer',
+		jquery: '../../node_modules/jquery/dist/jquery.min',
+		underscore: '../../node_modules/underscore/underscore-min',
+		backbone: '../../node_modules/backbone/backbone-min',
+		text : '../../node_modules/requirejs-text/text',
+		hammer : '../node_modules/hammerjs/hammer.min',
 		chai: '../../node_modules/chai/chai'
 	},
 	shim: {
@@ -19,7 +19,7 @@ requirejs.config({
 		underscore: {
 			exports: '_'
 		},
-		'chai': {
+		chai: {
 			exports: 'chai'
 		}
 	}

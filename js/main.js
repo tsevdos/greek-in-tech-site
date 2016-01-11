@@ -1,28 +1,5 @@
-requirejs.config({
-	baseUrl: 'js/app',
-	paths: {
-		jquery: '../vendor/jQuery/dist/jquery.min',
-		underscore: '../vendor/underscore/underscore-min',
-		backbone: '../vendor/backbone/backbone-min',
-		text : "../vendor/requirejs-text/text",
-		hammer : "../vendor/hammerjs/hammer"
-	},
-	shim: {
-		backbone: {
-			deps: ['jquery', 'underscore'],
-			exports: 'Backbone'
-		},
-		jquery: {
-			exports: '$'
-		},
-		underscore: {
-			exports: '_'
-		}
-	}
-});
-
-requirejs([
-	'app'
+require([
+	'./app/app'
 ], function(App) {
 	App.init();
 });
