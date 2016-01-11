@@ -38,6 +38,11 @@ define([
 			}
 
 			var entry = this.entries.findWhere({ id : parseInt(id) });
+			if (!entry) {
+				this.showRandomEntry();
+				return;
+			}
+
 			this.navigate("entry/" + id + "/" +
 				entry.get('urlFriendlyTitle'), { trigger: true });
 			if (!this.initialFragment) {
