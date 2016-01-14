@@ -20,7 +20,7 @@ define(function (require) {
 		it('have a length property with 45 entries', function () {
 			expect(this.entries).to.have.property('length');
 			expect(_.isNumber(this.entries.length)).to.be.true;
-			expect(this.entries).length(45);
+			expect(this.entries).length(46);
 		});
 
 		it('contains entry models with unique IDs', function () {
@@ -30,7 +30,7 @@ define(function (require) {
 				ids.push(entry.get('id'));
 			});
 
-			expect(ids).to.eql(_.range(1, 46));
+			expect(ids).to.eql(_.range(1, 47));
 		});
 
 		it('return an unviewed entry ID', function () {

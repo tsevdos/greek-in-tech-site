@@ -472,5 +472,17 @@
 		"references": [
 			"https://en.wikipedia.org/wiki/Atomicity_(database_systems)"
 		]
+	},
+	{
+		"id": 46,
+		"title": "Delta (differencing)",
+		"description": "Δέλτα (delta) is a letter of the Greek alphabet (Δ or δ). Delta differencing is a way of storing or transmitting file differences rather than complete files. Deltas, for example, are the changes after a full backup. The differences are stored in files called deltas. As a backup approach saves bandwidth, reduces redundancy and storage. You can also find deltas on the deployment process of an application that requires database changes.",
+		"categories": [
+			"backup",
+			"databases"
+		],
+		"references": [
+			"https://en.wikipedia.org/wiki/Delta_encoding"
+		]
 	}
 ]
