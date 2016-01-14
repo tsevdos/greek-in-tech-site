@@ -24,6 +24,23 @@ casper.test.begin('site navigation: entry changed on click', function suite(test
 	});
 });
 
+casper.test.begin('site navigation: random entry is shown when id was not found', function suite(test) {
+	casper.start('http://127.0.0.1:8080/index.html#entry/a_non_existing_id', function() {
+		test.assert(this.status().currentHTTPStatus === 200, "page loads successfully");
+	});
+
+	casper.wait(3000);
+
+	casper.then(function() {
+		console.log(this.fetchText('h1'));
+		test.assertElementCount('article > *', 3, 'a non-empty random entry has been loaded');
+	});
+
+	casper.run(function() {
+		test.done();
+	});
+});
+
 casper.test.begin('content: references are shown', function suite(test) {
 	casper.start('http://127.0.0.1:8080/index.html#entry/31', function() {
 		test.assert(this.status().currentHTTPStatus === 200, "page loads successfully");
