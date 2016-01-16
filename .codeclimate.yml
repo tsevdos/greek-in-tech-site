@@ -16,4 +16,4 @@ ratings:
   - "**.js"
 exclude_paths:
 - tests/**/*
-- js/vendor/**/*
+- js/dist/**/*
