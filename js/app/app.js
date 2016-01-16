@@ -1,15 +1,12 @@
-define([
-	'backbone',
-	'./router/AppRouter'
-], function(Backbone, AppRouter) {
+import Backbone from 'backbone';
+import AppRouter from './router/AppRouter';
 
-	var initialize = function() {
-		var appRouter = new AppRouter();
-		Backbone.history.start();
-	};
+var initialize = function() {
+  var appRouter = new AppRouter();
 
-	return {
-		init: initialize
-	};
+  Backbone.history.start();
+};
 
-});
+module.exports = {
+  init: initialize
+};

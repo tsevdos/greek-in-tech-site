@@ -1,5 +1,2 @@
-require([
-	'./app/app'
-], function(App) {
-	App.init();
-});
+import App from './app/app';
+App.init();
