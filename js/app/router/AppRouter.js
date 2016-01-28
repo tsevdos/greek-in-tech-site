@@ -1,64 +1,67 @@
-define([
-	'backbone',
-	'jquery',
-	'../collections/Entries',
-	'../models/Entry',
-	'../views/EntriesView',
-	'../views/LoaderView',
-	'../views/EntryView',
-	'../data/entries.json'
-], function(Backbone, $, Entries, EntryModel, EntriesView, LoaderView, EntryView, data) {
+import Backbone from 'backbone'
+import $ from 'jquery'
+import _ from 'underscore'
+import LoaderView from '../views/LoaderView'
+import Entries from '../collections/Entries'
+import Entry from '../models/Entry'
+import EntriesView from '../views/EntriesView'
+import EntryView from '../views/EntryView'
+import data from '../data/entries.json'
 
-	return Backbone.Router.extend({
-		loader: new LoaderView(),
-		initialFragment: null,
-		routes: {
+class AppRouter extends Backbone.Router {
+
+	constructor() {
+		super();
+		this.routes = {
 			'': 'showRandomEntry',
 			'entry/:id(/:title)': 'showEntry'
-		},
+		};
+		this._bindRoutes();
 
-		initialize: function() {
-			this.$entryEl = $('#entry');
-			this.loader.render();
-			this.entriesData = JSON.parse(data);
-			this.entries = new Entries(this.entriesData);
-			var entriesView = new EntriesView({ collection: this.entries });
-			this.listenTo(entriesView, 'routeToUnviewedEntry', this.showEntry);
-			this.listenTo(entriesView, 'navigateBackwards', this.navigateBackwards);
-		},
+		this.initialFragment = null;
+		this.$entryEl = $('#entry');
+		this.loader = new LoaderView();
+		this.entriesData = JSON.parse(data);
+		this.entries = new Entries();
+		this.entries.add(this.entriesData); // TODO: See if I can do it in one line ex. this.entries = new Entries(this.entriesData);
+		var entriesView = new EntriesView({ collection: this.entries });
+		this.listenTo(entriesView, 'routeToUnviewedEntry', this.showEntry);
+		this.listenTo(entriesView, 'navigateBackwards', this.navigateBackwards);
+	}
 
-		showRandomEntry: function() {
-			var randomEntryID = this.entries.getUnviewedEntryID();
-			this.showEntry(randomEntryID);
-		},
+	showRandomEntry() {
+		var randomEntryID = this.entries.getUnviewedEntryID();
+		this.showEntry(randomEntryID);
+	}
 
-		showEntry: function(id) {
-			if (this.loader.$el.is(':visible')) {
-				this.loader.trigger('hide');
-			}
-
-			var entry = this.entries.findWhere({ id : parseInt(id) });
-			if (!entry) {
-				this.showRandomEntry();
-				return;
-			}
-
-			this.navigate("entry/" + id + "/" +
-				entry.get('urlFriendlyTitle'), { trigger: true });
-			if (!this.initialFragment) {
-				this.initialFragment = Backbone.history.getFragment();
-			}
-
-			new EntryView({ model : entry, container : this.$entryEl }).render();
-		},
-
-		navigateBackwards: function() {
-			if (this.initialFragment == Backbone.history.getFragment()) {
-				return;
-			}
-			window.history.back();
+	showEntry(id) {
+		if (this.loader.$el.is(':visible')) {
+			this.loader.trigger('hide');
 		}
 
-	});
+		var entry = this.entries.findWhere({ id : parseInt(id) });
 
-});
+		if (_.isUndefined(entry)) {
+			this.showRandomEntry();
+			return;
+		}
+
+		this.navigate("entry/" + id + "/" + entry.get('urlFriendlyTitle'), { trigger: true });
+
+		if (!this.initialFragment) {
+			this.initialFragment = Backbone.history.getFragment();
+		}
+
+		this.entryView = new EntryView({ model : entry, container : this.$entryEl }).render();
+	}
+
+	navigateBackwards() {
+		if (this.initialFragment == Backbone.history.getFragment()) {
+			return;
+		}
+		window.history.back();
+	}
+
+}
+
+export default AppRouter;

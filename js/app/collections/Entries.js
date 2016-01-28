@@ -1,28 +1,30 @@
-define([
-	'backbone',
-	'underscore',
-	'../models/Entry',
-], function (Backbone, _, Entry) {
+import Backbone from 'backbone';
+import _ from 'underscore';
+import Entry from '../models/Entry';
 
-	return Backbone.Collection.extend({
-		model: Entry,
+class Entries extends Backbone.Collection {
 
-		getUnviewedEntryID: function() {
-			var unviewedEntries = this.where({ viewed : false });
+	constructor(entries) {
+		super(entries);
+		this.model = Entry;
+	}
 
-			if (unviewedEntries.length > 0) {
-				return _.sample(unviewedEntries).get("id");
-			} else {
+	getUnviewedEntryID() {
+		var unviewedEntries = this.where({ viewed : false });
 
-				this.each(function(model){
-					model.set("viewed", false);
-				});
+		if (unviewedEntries.length > 0) {
+			return _.sample(unviewedEntries).get("id");
+		} else {
 
-				return this.sample().get("id");
-			}
+			this.each(function(model){
+				model.set("viewed", false);
+			});
 
+			return this.sample().get("id");
 		}
 
-	});
+	}
 
-});
+}
+
+export default Entries;

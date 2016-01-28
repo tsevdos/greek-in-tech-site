@@ -1,21 +1,22 @@
-define([
-	'backbone',
-	'jquery'
-], function (Backbone, $) {
-	return Backbone.View.extend({
-		el: $('.loader'),
+import Backbone from 'backbone'
+import $ from 'jquery'
 
-		render: function () {
+class LoaderView extends Backbone.View {
 
-			this.on('hide', this.hideLoader, this);
+	constructor() {
+		super({
+			el: '.loader'
+		});
+	}
 
-			return this;
-        },
+	initialize() {
+		this.listenTo(this, 'hide', this.hideLoader);
+	}
 
-		hideLoader: function () {
+	hideLoader() {
+		this.$el.hide();
+	}
 
-			this.$el.hide();
-		}
+}
 
-	});
-});
+export default LoaderView;

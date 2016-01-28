@@ -1,12 +1,13 @@
-import Backbone from 'backbone';
-import AppRouter from './router/AppRouter';
+import Backbone from 'backbone'
+import AppRouter from './router/AppRouter'
 
-var initialize = function() {
-  var appRouter = new AppRouter();
+class App {
 
-  Backbone.history.start();
-};
+  constructor () {
+    new AppRouter();
+    Backbone.history.start();
+  }
 
-module.exports = {
-  init: initialize
-};
+}
+
+export default App;

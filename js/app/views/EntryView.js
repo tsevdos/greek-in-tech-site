@@ -1,54 +1,63 @@
-define([
-	'backbone',
-	'jquery',
-	'underscore',
-	'../templates/entry.html'
-], function(Backbone, $, _, EntryTemplate){
-	return Backbone.View.extend({
-		el: $('#entry'),
-		template: _.template(EntryTemplate),
+import Backbone from 'backbone'
+import $ from 'jquery'
+import _ from 'underscore'
+import EntryTemplate from '../templates/entry.html'
 
-		events: {
-			'click .twitter-share-button' : "tweetEntry"
-		},
+class EntryView extends Backbone.View {
 
-		initialize: function (options) {
-			var self = this;
-			this.CSSanimationClasses = "flipInX animated";
-			this.container = options.container;
-			this.container.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-				$(this).removeClass(self.CSSanimationClasses);
-			});
-		},
+	constructor(options) {
+		super({
+			el: '#entry',
+			model: options.model,
+			container: options.container,
 
-		render: function() {
-			this.model.set("viewed", true);
-			this.$el.html(this.template(this.model.toJSON()));
-			this.animateView();
+			events: {
+				'click .twitter-share-button' : 'tweetEntry'
+			}
+		});
+		this.template = _.template(EntryTemplate);
+	}
 
-			return this;
-		},
+	initialize(options) {
+		this.listenTo(this.model, 'change', this.render);
 
-		animateView: function() {
-			this.container.addClass(this.CSSanimationClasses);
-		},
+		var self = this;
+		this.CSSanimationClasses = "flipInX animated";
+		this.container = options.container;
+		this.container.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+			$(this).removeClass(self.CSSanimationClasses);
+		});
+	}
 
-		tweetEntry: function(e) {
-			e.preventDefault();
+	render() {
+		this.model.set('viewed', true);
+		this.$el.html(this.template(this.model.toJSON()));
+		this.animateView();
 
-			var width  = 575,
-				height = 400,
-				left   = ($(window).width()  - width)  / 2,
-				top    = ($(window).height() - height) / 2,
-				url    = this.$el.find('.twitter-share-button').attr('href'),
-				opts   = 'status=1' +
-						',width='  + width  +
-						',height=' + height +
-						',top='    + top    +
-						',left='   + left;
+		return this;
+	}
 
-			window.open(url, 'twitter', opts);
-		}
+	animateView() {
+		this.container.addClass(this.CSSanimationClasses);
+	}
 
-	});
-});
+	tweetEntry(e) {
+		e.preventDefault();
+
+		var width  = 575,
+			height = 400,
+			left   = ($(window).width()  - width)  / 2,
+			top    = ($(window).height() - height) / 2,
+			url    = this.$el.find('.twitter-share-button').attr('href'),
+			opts   = 'status=1' +
+					',width='  + width  +
+					',height=' + height +
+					',top='    + top    +
+					',left='   + left;
+
+		window.open(url, 'twitter', opts);
+	}
+
+}
+
+export default EntryView
