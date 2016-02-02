@@ -484,5 +484,169 @@
 		"references": [
 			"https://en.wikipedia.org/wiki/Delta_encoding"
 		]
-	}
+	},
+    {
+        "id": 47,
+        "title": "Syntax",
+        "description": "The word syntax comes from Ancient Greek: \u03c3\u03cd\u03bd\u03c4\u03b1\u03be\u03b9\u03c2 \\\"coordination\\\", which consists of \u03c3\u03cd\u03bd syn, \\\"together,\\\" and \u03c4\u03ac\u03be\u03b9\u03c2 t\u00e1xis, \\\"an ordering\\\".\r\nIn computer science, the syntax of a computer language is the set of rules that defines the combinations of symbols that are considered to be a correctly structured document or fragment in that language.",
+        "categories": [
+            "programming"
+        ],
+        "references": [
+            "https:\/\/en.wikipedia.org\/wiki\/Syntax_(programming_languages)",
+            "https:\/\/en.wikipedia.org\/wiki\/Syntax"
+        ]
+    },
+    {
+        "id": 48,
+        "title": "Semantics",
+        "description": "Semantics (from Ancient Greek: \u03c3\u03b7\u03bc\u03b1\u03bd\u03c4\u03b9\u03ba\u03cc\u03c2 s\u0113mantik\u00f3s, \\\"significant\\\") is the study of meaning. In computer science, the term semantics refers to the meaning of languages, as opposed to their form (syntax).",
+        "categories": [
+            "programming"
+        ],
+        "references": [
+            "https:\/\/en.wikipedia.org\/wiki\/Semantics"
+        ]
+    },
+    {
+        "id": 49,
+        "title": "Kilo",
+        "description": "Derived from ancient greek \u03c7\u03af\u03bb\u03b9\u03bf\u03b9 (chilioi ) \\\"one thousand\\\". In computing it refers to multiplying the unit to which it is attached by 2^10 (1024).",
+        "categories": [
+            "computing"
+        ],
+        "references": [
+            "https:\/\/en.wiktionary.org\/wiki\/kilo-",
+            "https:\/\/en.wikipedia.org\/wiki\/Kilo-"
+        ]
+    },
+    {
+        "id": 50,
+        "title": "Paragon",
+        "description": "From Ancient Greek \u03c0\u03b1\u03c1\u03b1\u03ba\u03bf\u03bd\u03ac\u03c9 \u200e(parakon\u00e1\u014d, \u201cI sharpen, whet\u201d). \r\nThe Intel Paragon is a discontinued series of massively parallel supercomputers that was produced by Intel in the 1990s. ",
+        "categories": [
+            "hardware",
+            " supercomputer"
+        ],
+        "references": [
+            "https:\/\/en.wiktionary.org\/wiki\/paragon",
+            " https:\/\/en.wikipedia.org\/wiki\/Intel_Paragon"
+        ]
+    },
+    {
+        "id": 51,
+        "title": "Titan",
+        "description": "From Ancient Greek \u03a4\u03b9\u03c4\u03ac\u03bd \u200e(Tit\u00e1n), a race of giant gods in Greek mythology that preceded and was overthrown by the Olympian gods.\r\nTitan is a supercomputer built by Cray at Oak Ridge National Laboratory for use in a variety of science projects. It uses graphics processing units (GPUs) in addition to conventional central processing units (CPUs).\r\nTitan is also the name of the prototype of the Atlas 2 computer developed by Ferranti and the University of Cambridge Mathematical Laboratory in Cambridge, England. \r\nFacebook also gave the name Titan to it\\'s modern messaging system unveiled in 2010. ",
+        "categories": [
+            "hardware",
+            "supercomputers",
+            "software"
+        ],
+        "references": [
+            "https:\/\/en.wiktionary.org\/wiki\/Titan",
+            "https:\/\/en.wikipedia.org\/wiki\/Titan_(supercomputer)",
+            "https:\/\/en.wikipedia.org\/wiki\/Titan_(computer)",
+            "http:\/\/www.digitaltrends.com\/computing\/facebooks-project-titan-is-the-modern-messaging-system-but-is-not-an-e-mail-killer\/"
+        ]
+    },
+    {
+        "id": 52,
+        "title": "Octet",
+        "description": "From ancient Greek \u1f40\u03ba\u03c4\u03ce \u200e(okt\u1e53). An octet is a unit of digital information in computing and telecommunications that consists of eight bits. The term is often used when the term byte might be ambiguous, as historically there was no standard definition for the size of the byte.\r\nOctets are used in the representation of Internet Protocol computer network addresses.",
+        "categories": [
+            "computing",
+            "networking"
+        ],
+        "references": [
+            "https:\/\/en.wiktionary.org\/wiki\/octo",
+            "https:\/\/en.wikipedia.org\/wiki\/Octet_(computing)"
+        ]
+    },
+    {
+        "id": 53,
+        "title": "Neural",
+        "description": "From Ancient Greek \u03bd\u03b5\u1fe6\u03c1\u03bf\u03bd \u200e(ne\u00fbron, \u201ca sinew, nerve\u201d) +\u200e -al. In computing it means something that is modelled on the arrangement of neurons in the brain.\r\nNeural network software is used to simulate, research, develop and apply artificial neural networks, biological neural networks and, in some cases, a wider array of adaptive systems.",
+        "categories": [
+            "artifical intelligence",
+            "networking",
+            "software",
+            "machine learning"
+        ],
+        "references": [
+            "https:\/\/en.wiktionary.org\/wiki\/neural",
+            "https:\/\/en.wikipedia.org\/wiki\/Artificial_neural_network"
+        ]
+    },
+    {
+        "id": 54,
+        "title": "Protocol",
+        "description": "From Byzantine Greek \u03c0\u03c1\u03c9\u03c4\u03cc\u03ba\u03bf\u03bb\u03bb\u03bf\u03bd \u200e(\u201cfirst sheet glued onto a manuscript\u201d), from \u03c0\u03c1\u1ff6\u03c4\u03bf\u03c2 \u200e(pr\u00f4tos, \u201cfirst\u201d) + \u03ba\u03cc\u03bb\u03bb\u03b1 \u200e(k\u00f3lla, \u201cglue\u201d). \r\n In telecommunications, a communications protocol is a system of rules that allow two or more entities of a communications system to transmit information via any kind of variation of a physical quantity. ",
+        "categories": [
+            "networking",
+            "communications"
+        ],
+        "references": [
+            "https:\/\/en.wiktionary.org\/wiki\/protocol",
+            "https:\/\/en.wikipedia.org\/wiki\/Communications_protocol"
+        ]
+    },
+    {
+        "id": 55,
+        "title": "Method",
+        "description": "From Ancient Greek \u03bc\u03ad\u03b8\u03bf\u03b4\u03bf\u03c2 \u200e(m\u00e9thodos, \u201cpursuit of knowledge, investigation, mode of prosecuting such inquiry, system\u201d). \r\nIn object oriented programming it describes a subroutine or function belonging to a class or object.\r\n",
+        "categories": [
+            "programming"
+        ],
+        "references": [
+            "https:\/\/en.wiktionary.org\/wiki\/method"
+        ]
+    },
+    {
+        "id": 56,
+        "title": "Topology",
+        "description": "From Ancient Greek \u03c4\u03cc\u03c0\u03bf\u03c2 \u200e(t\u00f3pos, \u201cplace, locality\u201d) + -(o)logy (\u201cstudy of\u201d, \\\"a branch of knowledge\\\"). \r\nIn computing topology means the arrangement of nodes in a communications network.",
+        "categories": [
+            "networking",
+            "hardware",
+            "communications"
+        ],
+        "references": [
+            "https:\/\/en.wiktionary.org\/wiki\/topology"
+        ]
+    },
+    {
+        "id": 57,
+        "title": "Diagnostics",
+        "description": "From Greek diagn\u014dstikos \u2018able to distinguish\u2019, from diagign\u014dskein \u2018distinguish\u2019. Any tool or technique, usually a special piece of software, used to find the root of a hardware or software problem and assist with it\\'s fixing. ",
+        "categories": [
+            "software"
+        ],
+        "references": [
+            "https:\/\/en.wiktionary.org\/wiki\/diagnosis",
+            "https:\/\/en.wiktionary.org\/wiki\/diagnostic#English"
+        ]
+    },
+    {
+        "id": 58,
+        "title": "Hexadecimal",
+        "description": "The word hexadecimal is composed of hexa-, derived from the Greek \u03ad\u03be (hex) for six, and -decimal, derived from the Latin for tenth.\r\nIn mathematics and computing, hexadecimal (also base 16, or hex) is a positional numeral system with a radix, or base, of 16. ",
+        "categories": [
+            "computing"
+        ],
+        "references": [
+            "https:\/\/en.wiktionary.org\/wiki\/hexa-#English",
+            "https:\/\/en.wikipedia.org\/wiki\/Hexadecimal"
+        ]
+    },
+    {
+        "id": 59,
+        "title": "Giga",
+        "description": "From Ancient Greek \u03b3\u03af\u03b3\u03b1\u03c2 \u200e(g\u00edgas, \u201cgiant\u201d). In computing it is a prefix that means multiplying the unit to which it is attached by 2^30 or 1,073,741,824. ",
+        "categories": [
+            "computing"
+        ],
+        "references": [
+            "https:\/\/en.wiktionary.org\/wiki\/giga-"
+        ]
+    }
 ]
