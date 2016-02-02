@@ -7,7 +7,7 @@
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack -p",
-    "test-webserver": "./node_modules/.bin/live-server",
+    "test-webserver": "./node_modules/.bin/live-server --no-browser &",
     "test": "npm run test-unit && npm run test-functional",
     "test-unit": "./node_modules/.bin/mocha --compilers js:babel-register",
     "test-functional": "./node_modules/.bin/casperjs test tests-functional/simple.js",
