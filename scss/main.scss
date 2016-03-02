@@ -1,4 +1,5 @@
-@import "compass";
+@import 'compass';
+@import 'compass/css3/animation';
 @include global-reset();
 
 $blue: #4882b2;
@@ -113,6 +114,7 @@ p, ul {
 article {
 
 	header {
+		margin: 0 0 2em;
 		background: $dark-blue;
 
 		.container {
