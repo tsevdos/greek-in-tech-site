@@ -10,7 +10,7 @@ module.exports = {
 		filename: 'bundle.js'
 	},
 	resolve: {
-		modulesDirectories: ['node_modules', 'scss']
+		modulesDirectories: ['node_modules']
 	},
 	module: {
 		loaders: [

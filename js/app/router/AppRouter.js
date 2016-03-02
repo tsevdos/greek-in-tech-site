@@ -13,8 +13,8 @@ class AppRouter extends Backbone.Router {
 	constructor() {
 		super();
 		this.routes = {
-			'': 'showRandomEntry',
-			'entry/:id(/:title)': 'showEntry'
+			'entry/:id(/:title)': 'showEntry',
+			'*actions': 'showRandomEntry'
 		};
 		this._bindRoutes();
 
