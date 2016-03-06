@@ -2,14 +2,18 @@
   "env": {
     "browser": true,
     "es6": true,
-    "amd": true,
     "commonjs": true,
   },
+  "parser": "babel-eslint",
   "ecmaFeatures": {
     "modules": true
   },
+  "extends": "defaults/configurations/airbnb/es6",
   "rules": {
-    "no-unexpected-multiline": 2
-    // TODO: add more rules
+    "no-new": 1,
+    "indent": [2, "tab"],
+    "comma-dangle": [2, "never"],
+    "radix": [2, "as-needed"],
+    "no-unused-expressions": [2, { allowTernary: true }]
   }
 }
