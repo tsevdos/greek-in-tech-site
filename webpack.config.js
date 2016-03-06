@@ -12,6 +12,7 @@ module.exports = {
 	resolve: {
 		modulesDirectories: ['node_modules']
 	},
+	devtool: 'inline-source-map',
 	module: {
 		loaders: [
 			{ test: /\.js$/,  loaders: ['babel', 'eslint'], exclude: /node_modules/ },
