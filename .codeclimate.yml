@@ -17,4 +17,4 @@ ratings:
 exclude_paths:
 - test/**/*
 - tests-functional/**/*
-- js/dist/**/*
+- dist/**/*

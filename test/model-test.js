@@ -1,10 +1,8 @@
 import chai from 'chai'
 import Backbone from '../node_modules/backbone/backbone-min'
-import EntryModel from '../js/app/models/Entry'
+import EntryModel from '../src/models/Entry'
 
 let expect = chai.expect;
-
-
 
 describe('Entry Model must', function () {
 

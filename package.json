@@ -1,16 +1,16 @@
 {
   "name": "greek-in-tech",
   "version": "0.1.0",
-  "description": "A backbone-based single page application.",
+  "description": "An ES6, Backbone, single page application (SPA), that demonstrates many greek words and names that we constantly use on modern computing and software engineering.",
   "main": "index.html",
   "private": true,
   "scripts": {
-    "start": "webpack-dev-server --devtool eval --progress --colors --hot",
+    "start": "webpack-dev-server --devtool eval --progress --colors --hot --display-error-details",
     "build": "webpack -p",
-    "test-webserver": "./node_modules/.bin/live-server --no-browser &",
+    "test-webserver": "live-server --no-browser &",
     "test": "npm run test-unit && npm run test-functional",
-    "test-unit": "./node_modules/.bin/mocha --compilers js:babel-register",
-    "test-functional": "./node_modules/.bin/casperjs test tests-functional/simple.js",
+    "test-unit": "mocha --compilers js:babel-register",
+    "test-functional": "casperjs test tests-functional/simple.js",
     "lint": "eslint js/**"
   },
   "dependencies": {
