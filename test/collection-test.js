@@ -1,11 +1,10 @@
 import _ from 'underscore'
 import Backbone from 'backbone'
 import chai from 'chai'
-import Entries from '../js/app/collections/Entries'
-import data from '../js/app/data/entries.json'
+import Entries from '../src/collections/Entries'
+import data from '../src/data/entries.json'
 
 let expect = chai.expect;
-
 
 describe('Entries Collection must:', function () {
 
