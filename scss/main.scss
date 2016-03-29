@@ -139,22 +139,31 @@ article {
 
 	}
 
-	.twitter-btn-container {
+	.social-links {
 		position: absolute;
 		bottom: 0;
 		right: 0;
+		margin: 0;
 
-		.twitter-share-button {
+		li {
+			float: left;
+			display: block;
+			margin: 0 0 0 2px;
+		}
+
+		a {
+			width: 1em;
 			display: inline-block;
 			position: relative;
 			padding: 12px;
 			border: 2px solid $white;
-			font-size: 2.8em;
+			font-size: 2em;
 			cursor: pointer;
 			color: $dark-blue;
 			background: $white;
 			outline: none;
 			text-decoration: none;
+			text-align: center;
 			@include single-transition(all, 0.3s);
 			@include opacity(1);
 
@@ -285,8 +294,8 @@ article {
 		width: 100%;
 	}
 
-	article .twitter-btn-container .twitter-share-button {
-		font-size: 1.5em;
+	article .social-links {
+		font-size: 1em;
 	}
 
 	article footer p,

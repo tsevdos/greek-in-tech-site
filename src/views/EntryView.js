@@ -12,7 +12,7 @@ class EntryView extends Backbone.View {
 			container: options.container,
 
 			events: {
-				'click .twitter-share-button': 'tweetEntry'
+				'click .social-links a': 'socialShare'
 			}
 		});
 		this.template = _.template(EntryTemplate);
@@ -36,17 +36,17 @@ class EntryView extends Backbone.View {
 		this.container.addClass(this.CSSanimationClasses);
 	}
 
-	tweetEntry(e) {
+	socialShare(e) {
 		e.preventDefault();
 
 		const width = 575;
 		const height = 400;
 		const left = ($(window).width() - width) / 2;
 		const top = ($(window).height() - height) / 2;
-		const url = this.$el.find('.twitter-share-button').attr('href');
+		const url = $(e.target).attr('href');
 		const opts = `status=1,width=${width},height=${height},top=${top},left=${left}`;
 
-		window.open(url, 'twitter', opts);
+		window.open(url, 'Share', opts);
 	}
 
 }
