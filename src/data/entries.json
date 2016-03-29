@@ -534,7 +534,7 @@
 	{
 		"id": 47,
 		"title": "Syntax",
-		"description": "The word syntax comes from Ancient Greek: σύνταξις \\\"coordination\\\", which consists of σύν syn, \\\"together,\\\" and τάξις táxis, \\\"an ordering\\\".\nIn computer science, the syntax of a computer language is the set of rules that defines the combinations of symbols that are considered to be a correctly structured document or fragment in that language.",
+		"description": "The word syntax comes from Ancient Greek: σύνταξις \"coordination\", which consists of σύν syn, \"together\", and τάξις táxis, \"an ordering\". In computer science, the syntax of a computer language is the set of rules that defines the combinations of symbols that are considered to be a correctly structured document or fragment in that language.",
 		"categories": [
 			"programming"
 		],
@@ -546,7 +546,7 @@
 	{
 		"id": 48,
 		"title": "Semantics",
-		"description": "Semantics (from Ancient Greek: σημαντικός sēmantikós, \\\"significant\\\") is the study of meaning. In computer science, the term semantics refers to the meaning of languages, as opposed to their form (syntax).",
+		"description": "Semantics (from Ancient Greek: σημαντικός sēmantikós, \"significant\") is the study of meaning. In computer science, the term semantics refers to the meaning of languages, as opposed to their form (syntax).",
 		"categories": [
 			"programming"
 		],
@@ -557,7 +557,7 @@
 	{
 		"id": 49,
 		"title": "Kilo",
-		"description": "Derived from ancient greek χίλιοι (chilioi ) \\\"one thousand\\\". In computing it refers to multiplying the unit to which it is attached by 2^10 (1024).",
+		"description": "Derived from ancient greek χίλιοι (chilioi ) \"one thousand\". In computing it refers to multiplying the unit to which it is attached by 2^10 (1024).",
 		"categories": [
 			"computing"
 		],
@@ -569,20 +569,20 @@
 	{
 		"id": 50,
 		"title": "Paragon",
-		"description": "From Ancient Greek παρακονάω ‎(parakonáō, “I sharpen, whet”). \nThe Intel Paragon is a discontinued series of massively parallel supercomputers that was produced by Intel in the 1990s.",
+		"description": "From Ancient Greek παρακονάω (parakonáō, \"I sharpen, whet\"). The Intel Paragon is a discontinued series of massively parallel supercomputers that was produced by Intel in the 1990s.",
 		"categories": [
 			"hardware",
-			" supercomputer"
+			"supercomputer"
 		],
 		"references": [
 			"https://en.wiktionary.org/wiki/paragon",
-			" https://en.wikipedia.org/wiki/Intel_Paragon"
+			"https://en.wikipedia.org/wiki/Intel_Paragon"
 		]
 	},
 	{
 		"id": 51,
 		"title": "Titan",
-		"description": "From Ancient Greek Τιτάν ‎(Titán), a race of giant gods in Greek mythology that preceded and was overthrown by the Olympian gods.\nTitan is a supercomputer built by Cray at Oak Ridge National Laboratory for use in a variety of science projects. It uses graphics processing units (GPUs) in addition to conventional central processing units (CPUs).\nTitan is also the name of the prototype of the Atlas 2 computer developed by Ferranti and the University of Cambridge Mathematical Laboratory in Cambridge, England. \nFacebook also gave the name Titan to it\\'s modern messaging system unveiled in 2010.",
+		"description": "From Ancient Greek Τιτάν (Titán), a race of giant gods in Greek mythology that preceded and was overthrown by the Olympian gods. Titan is a supercomputer built by Cray at Oak Ridge National Laboratory for use in a variety of science projects. It uses graphics processing units (GPUs) in addition to conventional central processing units (CPUs). Titan is also the name of the prototype of the Atlas 2 computer developed by Ferranti and the University of Cambridge Mathematical Laboratory in Cambridge, England. Facebook also gave the name Titan to it's modern messaging system unveiled in 2010.",
 		"categories": [
 			"hardware",
 			"supercomputers",
@@ -598,7 +598,7 @@
 	{
 		"id": 52,
 		"title": "Octet",
-		"description": "From ancient Greek ὀκτώ ‎(oktṓ). An octet is a unit of digital information in computing and telecommunications that consists of eight bits. The term is often used when the term byte might be ambiguous, as historically there was no standard definition for the size of the byte.\nOctets are used in the representation of Internet Protocol computer network addresses.",
+		"description": "From ancient Greek ὀκτώ (oktṓ). An octet is a unit of digital information in computing and telecommunications that consists of eight bits. The term is often used when the term byte might be ambiguous, as historically there was no standard definition for the size of the byte. Octets are used in the representation of Internet Protocol computer network addresses.",
 		"categories": [
 			"computing",
 			"networking"
@@ -611,7 +611,7 @@
 	{
 		"id": 53,
 		"title": "Neural",
-		"description": "From Ancient Greek νεῦρον ‎(neûron, “a sinew, nerve”) +‎ -al. In computing it means something that is modelled on the arrangement of neurons in the brain.\nNeural network software is used to simulate, research, develop and apply artificial neural networks, biological neural networks and, in some cases, a wider array of adaptive systems.",
+		"description": "From Ancient Greek νεῦρον (neûron, “a sinew, nerve”) + -al. In computing it means something that is modelled on the arrangement of neurons in the brain. Neural network software is used to simulate, research, develop and apply artificial neural networks, biological neural networks and, in some cases, a wider array of adaptive systems.",
 		"categories": [
 			"artifical intelligence",
 			"networking",
@@ -626,7 +626,7 @@
 	{
 		"id": 54,
 		"title": "Protocol",
-		"description": "From Byzantine Greek πρωτόκολλον ‎(“first sheet glued onto a manuscript”), from πρῶτος ‎(prôtos, “first”) + κόλλα ‎(kólla, “glue”). \n In telecommunications, a communications protocol is a system of rules that allow two or more entities of a communications system to transmit information via any kind of variation of a physical quantity.",
+		"description": "From Byzantine Greek πρωτόκολλον (“first sheet glued onto a manuscript”), from πρῶτος (prôtos, \"first\") + κόλλα (kólla, \"glue\"). In telecommunications, a communications protocol is a system of rules that allow two or more entities of a communications system to transmit information via any kind of variation of a physical quantity.",
 		"categories": [
 			"networking",
 			"communications"
@@ -639,7 +639,7 @@
 	{
 		"id": 55,
 		"title": "Method",
-		"description": "From Ancient Greek μέθοδος ‎(méthodos, “pursuit of knowledge, investigation, mode of prosecuting such inquiry, system”). \nIn object oriented programming it describes a subroutine or function belonging to a class or object.",
+		"description": "From Ancient Greek μέθοδος (méthodos, \"pursuit of knowledge, investigation, mode of prosecuting such inquiry, system\"). In object oriented programming it describes a subroutine or function belonging to a class or object.",
 		"categories": [
 			"programming"
 		],
@@ -650,7 +650,7 @@
 	{
 		"id": 56,
 		"title": "Topology",
-		"description": "From Ancient Greek τόπος ‎(tópos, “place, locality”) + -(o)logy (“study of”, \\\"a branch of knowledge\\\"). \nIn computing topology means the arrangement of nodes in a communications network.",
+		"description": "From Ancient Greek τόπος (tópos, \"place, locality\") + -(o)logy (\"study of\", \"a branch of knowledge\"). In computing topology means the arrangement of nodes in a communications network.",
 		"categories": [
 			"networking",
 			"hardware",
@@ -663,7 +663,7 @@
 	{
 		"id": 57,
 		"title": "Diagnostics",
-		"description": "From Greek diagnōstikos ‘able to distinguish’, from diagignōskein ‘distinguish’. Any tool or technique, usually a special piece of software, used to find the root of a hardware or software problem and assist with it\\'s fixing.",
+		"description": "From Greek diagnōstikos ‘able to distinguish’, from diagignōskein ‘distinguish’. Any tool or technique, usually a special piece of software, used to find the root of a hardware or software problem and assist with it's fixing.",
 		"categories": [
 			"software"
 		],
@@ -675,7 +675,7 @@
 	{
 		"id": 58,
 		"title": "Hexadecimal",
-		"description": "The word hexadecimal is composed of hexa-, derived from the Greek έξ (hex) for six, and -decimal, derived from the Latin for tenth.\nIn mathematics and computing, hexadecimal (also base 16, or hex) is a positional numeral system with a radix, or base, of 16.",
+		"description": "The word hexadecimal is composed of hexa-, derived from the Greek έξ (hex) for six, and -decimal, derived from the Latin for tenth. In mathematics and computing, hexadecimal (also base 16, or hex) is a positional numeral system with a radix, or base, of 16.",
 		"categories": [
 			"computing"
 		],
@@ -693,6 +693,30 @@
 		],
 		"references": [
 			"https://en.wiktionary.org/wiki/giga-"
+		]
+	},
+	{
+		"id": 60,
+		"title": "Meta (programming, data, etc.)",
+		"description": "Meta (from the Greek preposition and prefix meta- (μετά-) meaning \"after\", or \"beyond\") is a prefix used in English to indicate a concept which is an abstraction from another concept, used to complete or add to the latter.",
+		"categories": [
+			"computing",
+			"programming"
+		],
+		"references": [
+			"https://en.wikipedia.org/wiki/Meta"
+		]
+	},
+	{
+		"id": 61,
+		"title": "Lambda (function)",
+		"description": "Lambda calculus (also written as λ-calculus) is a formal system in mathematical logic for expressing computation based on function abstraction and application using variable binding and substitution. It was first introduced by mathematician Alonzo Church in the 1930s as part of an investigation into the foundations of mathematics. Lambda calculus is a universal model of computation equivalent to a Turing machine (Church-Turing thesis, 1937). Its namesake, Greek letter lambda (λ), is used in lambda terms (also called lambda expressions) to denote binding a variable in a function. Lambda calculus may be typed and untyped. In typed lambda calculus functions can be applied only if they are capable of accepting the given input's \"type\" of data. Lambda calculus has applications in many different areas in mathematics, philosophy, linguistics and computer science. Lambda calculus has played an important role in the development of the theory of programming languages. Functional programming languages implement the lambda calculus. Lambda calculus also is a current research topic in Category theory.",
+		"categories": [
+			"computing",
+			"programming"
+		],
+		"references": [
+			"https://en.wikipedia.org/wiki/Lambda_calculus"
 		]
 	}
 ]
