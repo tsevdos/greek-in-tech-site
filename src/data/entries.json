@@ -718,5 +718,64 @@
 		"references": [
 			"https://en.wikipedia.org/wiki/Lambda_calculus"
 		]
-	}
+	},
+	{
+        "id": 62,
+        "title": "Mega",
+        "description": "From Ancient Greek μέγας ‎(mégas, “great, large, mighty”). In computing, mega may sometimes denote 1,048,576 (2^20) of information units (example: a megabyte, a megaword), but denotes 1000000 (10^6) units of other quantities, for example, transfer rates: 1megabit/s = 1000000bit/s. The prefix mebi has been suggested as a prefix for 2^20 to avoid ambiguity.",
+        "categories": [
+            "computing"
+        ],
+        "references": [
+            "https://en.wiktionary.org/wiki/mega-",
+            "https://en.wikipedia.org/wiki/Mega-"
+        ]
+    },
+    {
+        "id": 63,
+        "title": "Analog",
+        "description": "From Ancient Greek ἀνάλογος ‎(análogos, “proportionate”).A device or system in which the value of a data item (such as time) is represented by a continuous(ly) variable physical quantity that can be measured (such as the shadow of a sundial)",
+        "categories": [
+            "technology"
+        ],
+        "references": [
+            "https://en.wiktionary.org/wiki/analog"
+        ]
+    },
+    {
+        "id": 64,
+        "title": "Dynamic",
+        "description": "from Ancient Greek δυναμικός ‎(dunamikós, “powerful”).In computing it means something that is happening at runtime instead of being predetermined at compile time.For instance: dynamic allocation, dynamic IP addresses, the dynamic resizing of an array\n\n",
+        "categories": [
+            "computing",
+            "programming"
+        ],
+        "references": [
+            "https://en.wiktionary.org/wiki/dynamic"
+        ]
+    },
+    {
+        "id": 65,
+        "title": "Macro",
+        "description": "From Ancient Greek μακρός ‎(makrós, “long”). A comparatively human-friendly abbreviation of complicated input to a computer program.",
+        "categories": [
+            "computing",
+            "programming"
+        ],
+        "references": [
+            "https://en.wiktionary.org/wiki/macro"
+        ]
+    },
+    {
+        "id": 66,
+        "title": "Ethernet",
+        "description": "The word Ethernet is a compound word formed by joining 'Ether' and 'Net'.  The word 'Ether' is based on Ancient Greek word αἰθήρ ‎(aithḗr, “upper air”).In computing it refers to a set of network cabling and network access (CSMA/CD) protocol standards for bus topology computer networks invented by Xerox but now controlled by the 802.3 subcommittee of the IEEE.",
+        "categories": [
+            "networks"
+        ],
+        "references": [
+            "https://en.wiktionary.org/wiki/Ethernet",
+            "https://en.wiktionary.org/wiki/ether"
+        ]
+    }
 ]
