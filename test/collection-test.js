@@ -24,7 +24,7 @@ describe('Entries Collection must:', function () {
 	it('have a length property with 59 entries', function () {
 		expect(this.entries).to.have.property('length');
 		expect(_.isNumber(this.entries.length)).to.be.true;
-		expect(this.entries).length(61);
+		expect(this.entries).length(66);
 	});
 
 	it('contains entry models with unique IDs', function () {
@@ -34,7 +34,7 @@ describe('Entries Collection must:', function () {
 			ids.push(entry.get('id'));
 		});
 
-		expect(ids).to.eql(_.range(1, 62));
+		expect(ids).to.eql(_.range(1, 67));
 	});
 
 	it('return an unviewed entry ID', function () {
