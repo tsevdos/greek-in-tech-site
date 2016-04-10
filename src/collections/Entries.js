@@ -6,6 +6,9 @@ class Entries extends Backbone.Collection {
 
 	constructor(entries) {
 		super(entries);
+	}
+
+	initialize() {
 		this.model = Entry;
 	}
 
