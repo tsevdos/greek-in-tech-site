@@ -11,7 +11,7 @@
     "test": "npm run test-unit && npm run test-functional",
     "test-unit": "mocha --compilers js:babel-register",
     "test-functional": "casperjs test tests-functional/simple.js",
-    "lint": "eslint js/**"
+    "lint": "eslint src/** test/**"
   },
   "dependencies": {
     "backbone": "^1.2.3",
