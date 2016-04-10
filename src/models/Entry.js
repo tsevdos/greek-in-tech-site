@@ -2,8 +2,11 @@ import Backbone from 'backbone';
 
 class Entry extends Backbone.Model {
 
-	constructor(attributes) {
-		super(attributes);
+	constructor(attrs) {
+		super(attrs);
+	}
+
+	initialize() {
 		this.set({ urlFriendlyTitle: this.convertToSlug(this.get('title')) });
 		this.parseTitle();
 	}
@@ -12,12 +15,6 @@ class Entry extends Backbone.Model {
 		return {
 			viewed: false
 		};
-	}
-
-	validate(attrs) {
-		if (!attrs || attrs.title === '' || attrs.description === '') {
-			return 'The model must have a title and a description.';
-		}
 	}
 
 	parseTitle() {

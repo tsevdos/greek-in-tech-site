@@ -16,15 +16,14 @@ class AppRouter extends Backbone.Router {
 			'*actions': 'showRandomEntry'
 		};
 		this._bindRoutes();
+	}
 
+	initialize() {
 		this.initialFragment = null;
 		this.$entryEl = $('#entry');
 		this.loader = new LoaderView();
 		this.entriesData = JSON.parse(data);
-		this.entries = new Entries();
-		// TODO: See if I can do it
-		// in one line ex. this.entries = new Entries(this.entriesData);
-		this.entries.add(this.entriesData);
+		this.entries = new Entries(this.entriesData);
 		const entriesView = new EntriesView({ collection: this.entries });
 		this.listenTo(entriesView, 'routeToUnviewedEntry', this.showEntry);
 		this.listenTo(entriesView, 'navigateBackwards', this.navigateBackwards);

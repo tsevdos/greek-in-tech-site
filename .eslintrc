@@ -3,6 +3,11 @@
     "browser": true,
     "es6": true,
     "commonjs": true,
+    "mocha": true
+  },
+  "globals": {
+    "chai": true,
+    "expect": true
   },
   "parser": "babel-eslint",
   "ecmaFeatures": {
