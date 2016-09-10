@@ -5,7 +5,7 @@ import LoaderView from '../views/LoaderView';
 import Entries from '../collections/Entries';
 import EntriesView from '../views/EntriesView';
 import EntryView from '../views/EntryView';
-import data from '../data/entries.json';
+import { all as entries } from 'greek-in-tech';
 
 class AppRouter extends Backbone.Router {
 
@@ -22,8 +22,7 @@ class AppRouter extends Backbone.Router {
 		this.initialFragment = null;
 		this.$entryEl = $('#entry');
 		this.loader = new LoaderView();
-		this.entriesData = JSON.parse(data);
-		this.entries = new Entries(this.entriesData);
+		this.entries = new Entries(JSON.parse(entries));
 		const entriesView = new EntriesView({ collection: this.entries });
 		this.listenTo(entriesView, 'routeToUnviewedEntry', this.showEntry);
 		this.listenTo(entriesView, 'navigateBackwards', this.navigateBackwards);

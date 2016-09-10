@@ -17,7 +17,7 @@ module.exports = {
 		loaders: [
 			{ test: /\.js$/,  loaders: ['babel', 'eslint'], exclude: /node_modules/ },
 			{ test: /\.html$/, loaders: ['raw'], exclude: /node_modules/ },
-			{ test: /\.json$/, loaders: ['raw'], exclude: /node_modules/ },
+			{ test: /\.json$/, loaders: ['raw'] },
 			{ test: /\.scss$/, loader: ExtractTextPlugin.extract('style-loader', 'css!sass?includePaths[]=' + path.resolve(__dirname, './node_modules/compass-mixins/lib')) }
 		]
 	},

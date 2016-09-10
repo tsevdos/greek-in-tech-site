@@ -1,6 +1,6 @@
 {
-  "name": "greek-in-tech",
-  "version": "0.1.0",
+  "name": "greek-in-tech-site",
+  "version": "1.0.0",
   "description": "An ES6, Backbone, single page application (SPA), that demonstrates many greek words and names that we constantly use on modern computing and software engineering.",
   "main": "index.html",
   "private": true,
@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "backbone": "^1.2.3",
+    "greek-in-tech": "0.1.1",
     "hammerjs": "^2.0.6",
     "jquery": "^2.2.0",
     "requirejs": "^2.1.22",

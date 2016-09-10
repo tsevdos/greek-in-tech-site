@@ -1,5 +1,5 @@
 [![Code Climate](https://codeclimate.com/github/tsevdos/greek-in-tech/badges/gpa.svg)](https://codeclimate.com/github/tsevdos/greek-in-tech)
-[![Build Status](https://api.travis-ci.org/tsevdos/greek-in-tech.svg?branch=gh-pages)](https://travis-ci.org/tsevdos/greek-in-tech)
+[![Build Status](https://travis-ci.org/tsevdos/greek-in-tech-site.svg?branch=gh-pages)](https://travis-ci.org/tsevdos/greek-in-tech-site)
 [![Gitter](https://badges.gitter.im/tsevdos/greek-in-tech.svg)](https://gitter.im/tsevdos/greek-in-tech?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # Greek in Tech

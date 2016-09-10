@@ -3,7 +3,7 @@ import _ from 'underscore';
 import Backbone from 'backbone';
 import chai from 'chai';
 import Entries from '../src/collections/Entries';
-import data from '../src/data/entries.json';
+import { all as data } from 'greek-in-tech';
 
 const expect = chai.expect;
 
