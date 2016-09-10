@@ -1,24 +1,23 @@
 /* eslint no-unused-expressions: [0] */
 import chai from 'chai';
-import Backbone from '../node_modules/backbone/backbone-min';
 import Entry from '../src/models/Entry';
 
-let expect = chai.expect;
+const expect = chai.expect;
 
 describe('Entry must', () => {
 	let validEntry;
 
 	beforeEach(() => {
 		validEntry = new Entry({
-			"id": 1,
-			"title": "Title",
-			"description": "Description",
-			"categories": [
-				"cat 1",
-				"cat 2",
-				"cat 3"
+			id: 1,
+			title: 'Title',
+			description: 'Description',
+			categories: [
+				'cat 1',
+				'cat 2',
+				'cat 3'
 			],
-			"references": [
+			references: [
 				'resource 1',
 				'resource 2'
 			]
@@ -34,13 +33,12 @@ describe('Entry must', () => {
 			id: 1,
 			title: 'Title',
 			description: 'Description',
-			categories: [ 'cat 1', 'cat 2', 'cat 3' ],
-			references: [ 'resource 1', 'resource 2' ],
+			categories: ['cat 1', 'cat 2', 'cat 3'],
+			references: ['resource 1', 'resource 2'],
 			viewed: false,
 			urlFriendlyTitle: 'title'
 		};
 
 		expect(validEntry.toJSON()).to.deep.eq(expectedJSON);
 	});
-
 });
