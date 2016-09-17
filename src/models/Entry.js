@@ -2,10 +2,6 @@ import Backbone from 'backbone';
 
 class Entry extends Backbone.Model {
 
-	constructor(attrs) {
-		super(attrs);
-	}
-
 	initialize() {
 		this.set({ urlFriendlyTitle: this.convertToSlug(this.get('title')) });
 		this.parseTitle();

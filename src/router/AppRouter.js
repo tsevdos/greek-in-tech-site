@@ -1,11 +1,11 @@
 import Backbone from 'backbone';
 import $ from 'jquery';
 import _ from 'underscore';
+import { all as entries } from 'greek-in-tech';
 import LoaderView from '../views/LoaderView';
 import Entries from '../collections/Entries';
 import EntriesView from '../views/EntriesView';
 import EntryView from '../views/EntryView';
-import { all as entries } from 'greek-in-tech';
 
 class AppRouter extends Backbone.Router {
 
@@ -38,7 +38,7 @@ class AppRouter extends Backbone.Router {
 			this.loader.trigger('hide');
 		}
 
-		const entry = this.entries.findWhere({ id: parseInt(id) });
+		const entry = this.entries.findWhere({ id: parseInt(id, 10) });
 
 		if (_.isUndefined(entry)) {
 			this.showRandomEntry();

@@ -9,7 +9,7 @@ class LoaderView extends Backbone.View {
 	}
 
 	initialize() {
-		this.listenTo(this, 'hide', () => { this.$el.hide(); });
+		this.listenTo(this, 'hide', () => this.$el.hide());
 	}
 
 }

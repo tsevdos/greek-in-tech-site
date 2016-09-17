@@ -11,7 +11,7 @@
     "test": "npm run test-unit && npm run test-functional",
     "test-unit": "mocha --compilers js:babel-register",
     "test-functional": "casperjs test tests-functional/simple.js",
-    "lint": "xo src/**/*.js test/**/*.js"
+    "lint": "xo src/**.js test/**.js"
   },
   "dependencies": {
     "backbone": "^1.2.3",
@@ -43,7 +43,13 @@
     "xo-loader": "0.7.0"
   },
   "xo": {
+    "rules": {
+      "xo/filename-case": 0,
+      "babel/object-curly-spacing": [2, "always"],
+      "no-unused-expressions":  [2, { "allowTernary": true }]
+    },
     "envs": [
+      "browser",
       "node",
       "mocha"
     ]

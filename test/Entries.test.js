@@ -2,16 +2,22 @@
 import _ from 'underscore';
 import Backbone from 'backbone';
 import chai from 'chai';
-import Entries from '../src/collections/Entries';
 import { all as data } from 'greek-in-tech';
+import Entries from '../src/collections/Entries';
 
 const expect = chai.expect;
 
 describe('Entries Collection must:', () => {
 	let entries;
 
-	beforeEach(() => entries = new Entries(data));
-	afterEach(() => entries = null);
+	beforeEach(() => {
+		entries = new Entries(data);
+		return entries;
+	});
+
+	afterEach(() => {
+		entries = null;
+	});
 
 	it('be a Backbone Collection', () => expect(entries).to.be.an.instanceof(Backbone.Collection));
 
@@ -23,13 +29,13 @@ describe('Entries Collection must:', () => {
 
 	it('contains entry models with unique IDs', () => {
 		const ids = [];
-		entries.each((entry) => ids.push(entry.get('id')));
+		entries.each(entry => ids.push(entry.get('id')));
 		expect(ids).to.eql(_.range(1, 67));
 	});
 
 	it('return an unviewed entry ID', () => {
 		// View all entries
-		entries.models.map((entry) => entry.set({ viewed: true }));
+		entries.models.map(entry => entry.set({ viewed: true }));
 
 		// except these 3
 		entries.at(0).set({ viewed: false });  // model.get('id') => 1

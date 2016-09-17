@@ -1,4 +1,3 @@
-/* eslint no-unused-expressions: [0] */
 import chai from 'chai';
 import Entry from '../src/models/Entry';
 
@@ -24,7 +23,9 @@ describe('Entry must', () => {
 		});
 	});
 
-	afterEach(() => validEntry = null);
+	afterEach(() => {
+		validEntry = null;
+	});
 
 	it('be a Backbone Model', () => expect(validEntry).to.be.instanceof(Entry));
 

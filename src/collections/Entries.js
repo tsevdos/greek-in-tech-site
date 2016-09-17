@@ -4,10 +4,6 @@ import Entry from '../models/Entry';
 
 class Entries extends Backbone.Collection {
 
-	constructor(entries) {
-		super(entries);
-	}
-
 	initialize() {
 		this.model = Entry;
 	}
@@ -19,7 +15,7 @@ class Entries extends Backbone.Collection {
 			return _.sample(unviewedEntries).get('id');
 		}
 
-		this.each((model) => { model.set('viewed', false); });
+		this.each(model => model.set('viewed', false));
 		return this.sample().get('id');
 	}
 }
