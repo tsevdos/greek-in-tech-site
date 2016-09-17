@@ -11,7 +11,7 @@
     "test": "npm run test-unit && npm run test-functional",
     "test-unit": "mocha --compilers js:babel-register",
     "test-functional": "casperjs test tests-functional/simple.js",
-    "lint": "xo src/**.js test/**.js"
+    "lint": "xo src/**.js test/**.js tests-functional/**.js "
   },
   "dependencies": {
     "backbone": "^1.2.3",
@@ -52,7 +52,8 @@
       "browser",
       "node",
       "mocha"
-    ]
+    ],
+    "globals": ["casper"]
   },
   "author": "John Tsevdos <tsevdosjohn@gmail.com> (http://tsevdos.me)",
   "license": "GPL3"
