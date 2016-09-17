@@ -15,7 +15,7 @@ module.exports = {
 	devtool: 'inline-source-map',
 	module: {
 		loaders: [
-			{ test: /\.js$/,  loaders: ['babel', 'eslint'], exclude: /node_modules/ },
+			{ test: /\.js$/,  loaders: ['babel', 'xo-loader'], exclude: /node_modules/ },
 			{ test: /\.html$/, loaders: ['raw'], exclude: /node_modules/ },
 			{ test: /\.json$/, loaders: ['raw'] },
 			{ test: /\.scss$/, loader: ExtractTextPlugin.extract('style-loader', 'css!sass?includePaths[]=' + path.resolve(__dirname, './node_modules/compass-mixins/lib')) }

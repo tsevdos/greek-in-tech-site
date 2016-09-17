@@ -2,3 +2,4 @@ node_modules
 .idea
 .sass-cache
 *js.map
+npm-debug.log
