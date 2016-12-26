@@ -39,7 +39,7 @@
     "style-loader": "^0.13.1",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2",
-    "xo": "^0.17.1",
+    "xo": "^0.16.0",
     "xo-loader": "^0.7.0"
   },
   "xo": {
