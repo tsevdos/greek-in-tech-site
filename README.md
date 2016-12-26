@@ -37,4 +37,4 @@ npm run build
 - [greek-in-tech](https://github.com/tsevdos/greek-in-tech) - greek-in-tech
 
 ## License
-GPL3 © [John Tsevdos](http://tsevdos.me)
+GPL3 (&#390;) [John Tsevdos](http://tsevdos.me)
