@@ -4,6 +4,8 @@
 [![Gitter](https://badges.gitter.im/tsevdos/greek-in-tech.svg)](https://gitter.im/tsevdos/greek-in-tech?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # Greek in Tech
+
+[![Join the chat at https://gitter.im/tsevdos/greek-in-tech](https://badges.gitter.im/tsevdos/greek-in-tech.svg)](https://gitter.im/tsevdos/greek-in-tech?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 A project that demonstrates many greek words and names that we constantly use on modern computing and software engineering. You can view the site on [greekintech.com](http://greekintech.com/).
 
 ## Getting Started
