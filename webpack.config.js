@@ -10,6 +10,7 @@ module.exports = {
 		filename: 'bundle.js'
 	},
 	resolve: {
+		extensions: ['', '.js', '.scss', '.json', '.html'],
 		modulesDirectories: ['node_modules']
 	},
 	devtool: 'inline-source-map',

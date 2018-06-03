@@ -1,7 +1,8 @@
+/* eslint prefer-arrow-callback: 0 */
 import chai from 'chai';
 import Entry from '../src/models/Entry';
 
-const expect = chai.expect;
+const { expect } = chai;
 
 describe('Entry must', () => {
 	let validEntry;

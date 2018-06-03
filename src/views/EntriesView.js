@@ -4,7 +4,6 @@ import _ from 'underscore';
 import Hammer from 'hammerjs';
 
 class EntriesView extends Backbone.View {
-
 	constructor(options) {
 		super({
 			el: 'body',
@@ -23,7 +22,6 @@ class EntriesView extends Backbone.View {
 	}
 
 	renderRandomEntry(e) {
-		// TODO: find a better way to suppress event delegation
 		if (e && $(e.target).is('a')) {
 			return;
 		}
@@ -56,7 +54,6 @@ class EntriesView extends Backbone.View {
 	moveToEntry(isForward) {
 		isForward ? this.renderRandomEntry() : this.trigger('navigateBackwards');
 	}
-
 }
 
 export default EntriesView;

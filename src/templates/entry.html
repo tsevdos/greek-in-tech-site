@@ -33,7 +33,7 @@
 		<p class="references-copy">References: </p>
 		<ul class="references">
 			<% _.each(references, function(reference) { %>
-				<li><a href="<%= reference %>" target="_blank"><%= reference %></a></li>
+				<li><a href="<%= reference.source %>" target="_blank"><%= reference.name %></a></li>
 			<% }) %>
 		</ul>
 	<% } %>
