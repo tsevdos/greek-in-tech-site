@@ -8,7 +8,6 @@ import EntriesView from '../views/EntriesView';
 import EntryView from '../views/EntryView';
 
 class AppRouter extends Backbone.Router {
-
 	constructor() {
 		super();
 		this.routes = {
@@ -60,7 +59,6 @@ class AppRouter extends Backbone.Router {
 		}
 		window.history.back();
 	}
-
 }
 
 export default AppRouter;

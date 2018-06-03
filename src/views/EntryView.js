@@ -1,10 +1,9 @@
 import Backbone from 'backbone';
 import $ from 'jquery';
 import _ from 'underscore';
-import EntryTemplate from '../templates/entry.html';
+import EntryTemplate from '../templates/entry';
 
 class EntryView extends Backbone.View {
-
 	constructor(options) {
 		super({
 			el: '#entry',
@@ -48,7 +47,6 @@ class EntryView extends Backbone.View {
 
 		window.open(url, 'Share', opts);
 	}
-
 }
 
 export default EntryView;

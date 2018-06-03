@@ -1,3 +1,4 @@
+/* eslint prefer-arrow-callback: 0, no-var: 0 */
 casper.test.begin('site navigation: entry changed on click', function suite(test) {
 	var title;
 	casper.start('http://127.0.0.1:8080', function () {

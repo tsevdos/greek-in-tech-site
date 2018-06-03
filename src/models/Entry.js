@@ -1,7 +1,6 @@
 import Backbone from 'backbone';
 
 class Entry extends Backbone.Model {
-
 	initialize() {
 		this.set({ urlFriendlyTitle: this.convertToSlug(this.get('title')) });
 		this.parseTitle();
@@ -37,7 +36,6 @@ class Entry extends Backbone.Model {
 	wrapTitleParenthesisInSpans(title) {
 		return title.replace('(', '<span>(').replace(')', ')</span>');
 	}
-
 }
 
 export default Entry;

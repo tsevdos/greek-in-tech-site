@@ -1,11 +1,11 @@
-/* eslint no-unused-expressions: [0] */
+/* eslint prefer-arrow-callback: 0, capitalized-comments: 0, no-unused-expressions: 0 */
 import _ from 'underscore';
 import Backbone from 'backbone';
 import chai from 'chai';
 import { all as data } from 'greek-in-tech';
 import Entries from '../src/collections/Entries';
 
-const expect = chai.expect;
+const { expect } = chai;
 
 describe('Entries Collection must:', () => {
 	let entries;
@@ -37,8 +37,8 @@ describe('Entries Collection must:', () => {
 		// View all entries
 		entries.models.map(entry => entry.set({ viewed: true }));
 
-		// except these 3
-		entries.at(0).set({ viewed: false });  // model.get('id') => 1
+		// Except these 3
+		entries.at(0).set({ viewed: false }); // model.get('id') => 1
 		entries.at(28).set({ viewed: false }); // model.get('id') => 29
 		entries.at(31).set({ viewed: false }); // model.get('id') => 32
 

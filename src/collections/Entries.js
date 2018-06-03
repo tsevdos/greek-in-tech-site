@@ -3,7 +3,6 @@ import _ from 'underscore';
 import Entry from '../models/Entry';
 
 class Entries extends Backbone.Collection {
-
 	initialize() {
 		this.model = Entry;
 	}

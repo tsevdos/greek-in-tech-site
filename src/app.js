@@ -1,6 +1,6 @@
 import Backbone from 'backbone';
 import AppRouter from './router/AppRouter';
-import '../scss/main.scss';
+import '../scss/main';
 
-new AppRouter(); // eslint-disable-line no-new
+new AppRouter();
 Backbone.history.start();
