@@ -1,11 +1,5 @@
-before_install:
-  - npm install -g casperjs
 install:
   - npm install
-before_script:
-  - "export DISPLAY=:99.0"
-  - "npm run test-webserver"
-  - sleep 3 # give webserver some time to start
 script: npm test
 # whitelisting gh-pages https://help.github.com/articles/troubleshooting-github-pages-build-failures/#working-with-continuous-integration-services
 branches:
