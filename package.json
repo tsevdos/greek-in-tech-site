@@ -8,7 +8,7 @@
     "start": "webpack-dev-server --devtool eval --progress --colors --hot --display-error-details",
     "build": "webpack -p",
     "test-webserver": "live-server --no-browser &",
-    "test": "npm run test-unit && npm run test-functional",
+    "test": "npm run test-unit",
     "test-unit": "mocha --compilers js:babel-register",
     "test-functional": "casperjs test tests-functional/simple.js",
     "lint": "xo src/**.js test/**.js tests-functional/**.js"
